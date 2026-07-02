@@ -5,366 +5,354 @@ date: 2026-07-02
 lang: zh
 ---
 
-> 从 44 条内容中筛选出 16 条重要资讯。
+> 从 43 条内容中筛选出 15 条重要资讯。
 
 ---
 
-1. [首个能生长分裂的合成细胞诞生](#item-1) ⭐️ 10.0/10
-2. [Erin Catto 宣布推出开源 3D 物理引擎 Box3D](#item-2) ⭐️ 9.0/10
-3. [arXiv 将从康奈尔大学剥离为独立非营利组织](#item-3) ⭐️ 9.0/10
-4. [英伟达优化推理软件，DeepSeek V4 成本降至五分之一](#item-4) ⭐️ 9.0/10
-5. [全球综述确认 mRNA 疫苗安全有效且前景广阔](#item-5) ⭐️ 8.0/10
-6. [索尼将于 2028 年停止 PlayStation 实体游戏光盘生产](#item-6) ⭐️ 8.0/10
-7. [FFmpeg 9.1 推出新 AAC 编码器，质量提升](#item-7) ⭐️ 8.0/10
-8. [Cloudflare 推出基于 x402 协议的盈利网关](#item-8) ⭐️ 8.0/10
-9. [Optimistic Provide：IPFS 内容发布速度提升 10 倍](#item-9) ⭐️ 8.0/10
-10. [安全启动证书过期，Linux 用户需采取行动](#item-10) ⭐️ 8.0/10
-11. [SentryCode：面向 AI 编码代理的实时审计与蜜令工具](#item-11) ⭐️ 8.0/10
-12. [MOTHRAG：无图多跳 RAG 超越基于图的系统](#item-12) ⭐️ 8.0/10
-13. [Gnosys 在标签稀缺下改进分类器](#item-13) ⭐️ 8.0/10
-14. [包括 Visa、Mastercard 在内的 140 多家企业联合发起 Open Standard 稳定币网络](#item-14) ⭐️ 8.0/10
-15. [ChatGPT 周活跃用户不到一年翻倍至 2 亿](#item-15) ⭐️ 8.0/10
-16. [国巨 7 月 1 日起全线电容涨价约五成](#item-16) ⭐️ 8.0/10
+1. [鸡蛋价格操纵者获利远超罚款千倍](#item-1) ⭐️ 9.0/10
+2. [Linux 6.9 LUKS 挂起回归导致加密密钥保留在内存中](#item-2) ⭐️ 8.0/10
+3. [Podman 6.0.0 发布，带来网络和 Quadlet 升级](#item-3) ⭐️ 8.0/10
+4. [PeerTube：去中心化视频平台引发关注](#item-4) ⭐️ 8.0/10
+5. [F-Droid：Android 开发者验证是特洛伊木马](#item-5) ⭐️ 8.0/10
+6. [日本最高法院裁定 AI 不能列为专利发明人](#item-6) ⭐️ 8.0/10
+7. [定理证明经济的衰落](#item-7) ⭐️ 8.0/10
+8. [Geoffrey Litt 的 '理解以参与' 理念](#item-8) ⭐️ 8.0/10
+9. [ECTC 2026 综述：EMIB-T、HBM4、光子互连等](#item-9) ⭐️ 8.0/10
+10. [LLM 辅助的内存管理补丁集被评估](#item-10) ⭐️ 8.0/10
+11. [苹果协助 FBI 溯源 iCloud 匿名邮箱用户](#item-11) ⭐️ 8.0/10
+12. [Meta 拟出售富余 AI 算力，进军云计算市场](#item-12) ⭐️ 8.0/10
+13. [Cloudflare 9 月起默认拦截混合用途 AI 爬虫，点名谷歌](#item-13) ⭐️ 8.0/10
+14. [企业因 AI 成本飙升限制使用](#item-14) ⭐️ 8.0/10
+15. [Anthropic 与三星洽谈代工自研 AI 芯片](#item-15) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [首个能生长分裂的合成细胞诞生](https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/) ⭐️ 10.0/10
+## [鸡蛋价格操纵者获利远超罚款千倍](https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a) ⭐️ 9.0/10
 
-由 Kate Adamala 博士领导的科学家团队从零构建了合成细胞 SpudCell，该细胞能够生长、复制 DNA 并分裂，标志着首次自下而上构建的细胞完成了完整的生命周期。 这一突破表明，非生命的化学组分可以组装成具备多数生命特征的类细胞实体，有望推动设计定制化生物体，用于医学、生物技术和生命起源研究。 SpudCell 缺少细胞骨架，采用基于液滴融合和相分离的新型分裂方式；该工作被 Cell 期刊拒稿后以预印本形式发布，尚未经过同行评审。
+调查显示，鸡蛋生产商通过价格操纵获得的利润远高于被处以的罚款，暴露出监管的不足。 这很重要，因为它表明当前的反垄断处罚力度不足以威慑非法串通行为，最终损害了支付高价的消费者。 支付的罚款仅为非法利润的一小部分，标题称操纵者获利是罚款的“一千倍”。具体金额未给出，但差距凸显了执法不力。
 
-hackernews · defrost · 7月1日 14:20 · [社区讨论](https://news.ycombinator.com/item?id=48747304)
+hackernews · toomuchtodo · 7月2日 13:25 · [社区讨论](https://news.ycombinator.com/item?id=48761229)
 
-**背景**: 合成生物学旨在从非生命材料构建人工细胞。此前合成细胞能复制 DNA 但无法分裂，因为分裂通常需要复杂的细胞骨架。Adamala 团队通过设计不同的分裂机制绕过了这一障碍，使合成细胞更接近真正的类生命行为。
+**背景**: 价格操纵是指竞争对手之间非法达成协议，人为抬高价格，削弱竞争并损害消费者利益。反垄断法律旨在防止此类串通行为，但罚款通常基于收入或损失计算，可能远低于实际获利。在本案中，鸡蛋生产商被指控在高蛋价时期合谋，同时将原因归咎于禽流感和通货膨胀，却暗中操纵价格。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/">For the First Time, a Cell Built From Scratch ... | Quanta Magazine</a></li>
-<li><a href="https://www.science.org/content/article/lab-created-spudcell-marks-major-step-toward-building-life-scratch">Lab-created ‘SpudCell’ marks ‘stunning’ step toward building life from scratch | Science | AAAS</a></li>
-<li><a href="https://en.wikipedia.org/wiki/SpudCell">SpudCell - Wikipedia</a></li>
+**社区讨论**: 评论者对缺乏企业追责表示不满，有人指出个人责任缺失且企业资金被视为言论。还有人称许多人被误导，以为高蛋价是由于通货膨胀和禽流感，实际上价格操纵是主要因素。讨论还提到市场集中度是根本原因。
 
-</ul>
-</details>
-
-**社区讨论**: 社区评论强调了这一成就的重要性，有人提到 Adamala 博士之前的工作，也有人对非传统的发表流程表示担忧——手稿在同行评审前就按禁发协议提供给记者。总体态度积极但谨慎。
-
-**标签**: `#synthetic biology`, `#scientific breakthrough`, `#spudcell`, `#cell division`, `#origin of life`
+**标签**: `#price fixing`, `#antitrust`, `#corporations`, `#economics`, `#consumer protection`
 
 ---
 
 <a id="item-2"></a>
-## [Erin Catto 宣布推出开源 3D 物理引擎 Box3D](https://box2d.org/posts/2026/06/announcing-box3d/) ⭐️ 9.0/10
+## [Linux 6.9 LUKS 挂起回归导致加密密钥保留在内存中](https://mathstodon.xyz/@iblech/116769502749142438) ⭐️ 8.0/10
 
-Box2D 物理引擎的创建者 Erin Catto 宣布了 Box3D，一个开源的 3D 物理引擎。该公告发布在其博客上，承诺为游戏和其他应用提供现代化的物理模拟方案。 Box2D 曾是无数游戏和模拟环境的基础，包括《愤怒的小鸟》和 OpenAI Gym 强化学习基准测试。Box3D 将这一遗产扩展到三维空间，可能通过提供可靠的开源 3D 物理解决方案，影响游戏开发、机器人模拟和机器学习研究。 虽然公告未包含详细的技术规格，但社区对网络游戏的确定性特别感兴趣。Box2D 本身使用 C 语言编写并以 MIT 许可证发布，预计 Box3D 也将遵循类似的宽松许可。
+从 Linux 6.9 开始，`cryptsetup luksSuspend` 命令在挂起期间不再从内存中清除磁盘加密密钥，导致密钥保留在 RAM 中。 这一回归削弱了 LUKS 加密设备的安全性，因为拥有物理访问权限的攻击者可以从挂起系统的内存中提取主密钥，无需密码即可解密磁盘。 该问题影响 Linux 6.9 及更高版本的内核，但并非所有发行版都受影响，因为 `luksSuspend` 并非官方 cryptsetup 规范的一部分，它最初是 Debian 的扩展。
 
-hackernews · makepanic · 7月1日 12:12 · [社区讨论](https://news.ycombinator.com/item?id=48745445)
+hackernews · IngoBlechschmid · 7月2日 15:25 · [社区讨论](https://news.ycombinator.com/item?id=48763035)
 
-**背景**: Box2D 是由 Erin Catto 创建的免费开源 2D 刚体物理引擎，已被用于《愤怒的小鸟》、《铲子骑士》等众多流行游戏以及 Unity 等游戏引擎。Box2D 还为 OpenAI Gym 中的标准强化学习环境提供支持，如 Lunar Lander 和 Car Racing。向 3D 物理的过渡在碰撞检测、求解器鲁棒性和性能优化方面带来了新的挑战。
+**背景**: LUKS（Linux 统一密钥设置）是一种磁盘加密规范，使用主密钥对分区上的数据进行加密。在正常操作期间，该主密钥保存在内核内存中以便即时解密。当系统挂起到 RAM 时，密钥仍留在内存中，但 `luksSuspend` 设计用于清除密钥以防止冷启动或物理攻击。这一回归意味着密钥不再被清除，从而使其容易受到攻击。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Box2D">Box2D</a></li>
-<li><a href="https://github.com/erincatto/box2d">GitHub - erincatto/box2d: Box2D is a 2D physics engine for games · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup">Linux Unified Key Setup - Wikipedia</a></li>
+<li><a href="https://sesamedisk.com/linux-luks-suspend-regression-security/">Linux LUKS Suspend Regression: Keys Stay - Sesame Disk</a></li>
+<li><a href="https://news.ycombinator.com/item?id=48763035">Since Linux 6.9, LUKS suspend stopped wiping disk-encryption ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区成员表达了兴奋和怀旧之情，一位用户提到 Box2D 在早期独立游戏中的作用。另一位从机器学习研究的角度评论，强调了 Box2D 在 Gym 环境中的使用。大家对网络应用的确定性表现出浓厚兴趣，同时也有人提醒注意物理模拟的复杂性。
+**社区讨论**: 社区评论显示了不同的反应：一些人认为 `luksSuspend` 并非官方支持，仅影响 Debian，而另一些人则强调此类安全回归很容易被忽视，因为一切仍然正常。少数用户低估了风险，指出如果挂起后不需要重新输入密码，加密密钥本来就应保留在内存中，磁盘加密主要保护的是驱动器被移除时的数据盗窃。
 
-**标签**: `#physics engine`, `#open source`, `#Box2D`, `#game development`, `#reinforcement learning`
+**标签**: `#Linux`, `#kernel`, `#security`, `#encryption`, `#regression`
 
 ---
 
 <a id="item-3"></a>
-## [arXiv 将从康奈尔大学剥离为独立非营利组织](https://www.reddit.com/r/MachineLearning/comments/1ukjtlm/on_july_1_2026_arxiv_will_spin_out_from_cornell/) ⭐️ 9.0/10
+## [Podman 6.0.0 发布，带来网络和 Quadlet 升级](https://blog.podman.io/2026/07/introducing-podman-v6-0-0/) ⭐️ 8.0/10
 
-2026 年 7 月 1 日，arXiv 将脱离其 25 年的主办方康奈尔大学，成为独立的非营利组织，并获得西蒙斯基金会和施密特科学的主要资助。 作为机器学习和众多科学领域的基础预印本服务器，arXiv 的结构独立确保了其长期稳定性和开放性，影响着全球研究传播的方式。 过渡包括重新设计品牌——网站放弃红色配色——并获得了两个基金会的持续财政支持，确保 arXiv 对用户保持免费。
+Podman v6.0.0 引入了新的网络功能，并对 Quadlet（一种将容器作为 systemd 服务运行的工具）进行了重大增强。 此重要版本巩固了 Podman 作为 Docker 领先替代品的地位，尤其对依赖 systemd 集成和强大网络功能的系统管理员和 DevOps 人员意义重大。 该版本包括网络配置和管理的改进，以及 Quadlet 从容器定义生成 systemd 单元文件的能力。建议用户查看变更日志以了解可能的不兼容变更。
 
-reddit · r/MachineLearning · /u/Nunki08 · 7月1日 12:07
+hackernews · soheilpro · 7月2日 14:23 · [社区讨论](https://news.ycombinator.com/item?id=48762098)
 
-**背景**: arXiv 是一个广泛使用的预印本库，研究人员在同行评审前分享论文的早期版本。它成立于 1991 年，自 2001 年起由康奈尔大学图书馆托管，在加速科学交流方面发挥着关键作用。
+**背景**: Podman 是由 Red Hat 开发的无守护进程容器引擎，提供与 Docker 兼容的命令行接口。Quadlet 允许用户通过简单的配置文件定义容器，并自动生成 systemd 服务来管理它们。这种方法简化了在 Linux 系统上的容器生命周期管理。
 
-**标签**: `#arXiv`, `#academic publishing`, `#open access`, `#nonprofit transition`, `#preprint server`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.redhat.com/en/blog/quadlet-podman">Make systemd better for Podman with Quadlet</a></li>
+<li><a href="https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html">podman -systemd.unit — Podman documentation</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区反应不一：一些用户称赞 Podman 的改进和 Quadlet 的便利性，而另一些用户则指出与 Docker 的细微不兼容性可能会给期望完全兼容的项目带来问题。一位 macOS 用户将 Podman 的速度与 OrbStack 进行了不利比较。
+
+**标签**: `#podman`, `#containers`, `#devops`, `#linux`
 
 ---
 
 <a id="item-4"></a>
-## [英伟达优化推理软件，DeepSeek V4 成本降至五分之一](https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/) ⭐️ 9.0/10
+## [PeerTube：去中心化视频平台引发关注](https://github.com/Chocobozzz/PeerTube) ⭐️ 8.0/10
 
-英伟达在 Blackwell 平台上的推理软件栈实现了 DeepSeek V4 的 5 倍性能提升，吞吐量在一个月内从每 GPU 每秒 2,200 tokens 增加到 11,200 tokens，将 token 成本降至五分之一。 这一突破大幅降低了部署大型语言模型的成本，使企业和开发者的 AI 推理更加经济实惠且可扩展。 优化包括融合技术、显存压缩、量化路径和可中断计算图；后续通过分解式服务和多 token 预测，吞吐量有望提升 20 倍。
+PeerTube，一个基于 ActivityPub 协议的开源去中心化视频平台，引发了社区广泛关注，讨论焦点集中在其盈利模式挑战和采用障碍上。 PeerTube 代表着向去中心化视频托管的一种潜在转变，赋予用户和创作者更多控制权，但其成功取决于解决盈利和内容发现等问题。 PeerTube 利用 P2P 技术降低服务器负载，并使用 ActivityPub 协议与其他实例互联，但目前缺乏内置的盈利机制，内容库也远小于 YouTube。
 
-telegram · zaihuapd · 7月1日 10:36
+hackernews · doener · 7月2日 11:17 · [社区讨论](https://news.ycombinator.com/item?id=48759634)
 
-**背景**: 推理优化减少了运行 DeepSeek V4 等 AI 模型所需的计算资源。SGLang 是一个高性能的 LLM 服务框架，Blackwell Ultra 是英伟达最新的 GPU 架构，拥有 2080 亿个晶体管和 160 个流式多处理器。分解式服务将预填充和解码阶段分离，以实现更好的资源利用率。
+**背景**: PeerTube 是 Fediverse（联邦宇宙）的一部分，Fediverse 是一个使用 ActivityPub 协议互联社交平台网络。与 YouTube 等中心化服务不同（由一家公司控制所有服务器），PeerTube 允许任何人托管一个‘pod’（服务器），该服务器可以与其他服务器通信，从而实现去中心化视频托管。该平台还使用点对点技术，让观看者之间共享带宽，从而在视频走红时减少服务器压力。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/sgl-project/sglang">GitHub - sgl-project/sglang: SGLang is a high-performance serving framework for large language models and multimodal models. · GitHub</a></li>
-<li><a href="https://developer.nvidia.com/blog/inside-nvidia-blackwell-ultra-the-chip-powering-the-ai-factory-era/">Inside NVIDIA Blackwell Ultra: The Chip Powering the AI ...</a></li>
-<li><a href="https://www.nvidia.com/en-us/glossary/disaggregated-serving/">What Is Disaggregated Serving? | NVIDIA Glossary</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PeerTube">PeerTube - Wikipedia</a></li>
+<li><a href="https://github.com/Chocobozzz/PeerTube">GitHub - Chocobozzz/PeerTube: ActivityPub- federated video ...</a></li>
+<li><a href="https://docs.joinpeertube.org/contribute/architecture">Architecture | PeerTube documentation</a></li>
 
 </ul>
 </details>
 
-**标签**: `#NVIDIA`, `#DeepSeek V4`, `#inference optimization`, `#GPU`, `#AI hardware`
+**社区讨论**: 社区评论强调盈利是专业 YouTube 创作者的最大障碍，一位用户指出制作成本高昂。一些创作者欣赏 PeerTube 适合开源项目，但感叹平台缺乏受众和内容。其他人则因为被 YouTube 封禁而转投 PeerTube。总体情绪谨慎乐观，但承认存在显著的采用障碍。
+
+**标签**: `#decentralized`, `#video hosting`, `#open source`, `#federation`, `#PeerTube`
 
 ---
 
 <a id="item-5"></a>
-## [全球综述确认 mRNA 疫苗安全有效且前景广阔](https://news.ubc.ca/2026/06/mrna-vaccines-are-safe-effective-and-full-of-promise/) ⭐️ 8.0/10
+## [F-Droid：Android 开发者验证是特洛伊木马](https://f-droid.org/2026/07/01/adv-malware.html) ⭐️ 8.0/10
 
-一项全面的全球综述再次确认 mRNA 疫苗安全有效，并强调其在 COVID-19 之外的多种疾病中的未来应用潜力。 该综述提供了权威证据，有助于恢复公众对 mRNA 技术的信任，这对于未来应对疫情及癌症等疾病的疫苗快速开发至关重要。 该综述涵盖了多项研究的安全性和有效性数据，但具体发表时间和期刊未明确说明。制造规模化被强调为疫情应对中的关键成就。
+F-Droid 发布文章称，Google 从 2026 年 9 月开始要求验证开发者身份并注册包名的 Android 开发者验证，实际上是一种伪装成保护的威胁，尤其危害开源应用分发。 此验证可能限制在认证 Android 设备上安装来自 F-Droid 等第三方商店的应用，损害用户自由和开源生态。这代表了平台控制的更广泛趋势，影响依赖替代应用来源的开发者与用户。 Google 的开发者验证要求开发者验证身份并注册包名，从 2026 年 9 月起，在特定地区，只有已验证开发者的应用才能安装在认证 Android 设备上。F-Droid 声称这给了 Google 对应用分发的控制权，如同特洛伊木马。
 
-hackernews · coloneltcb · 7月2日 00:40 · [社区讨论](https://news.ycombinator.com/item?id=48754963)
+hackernews · drewfax · 7月2日 03:00 · [社区讨论](https://news.ycombinator.com/item?id=48755965)
 
-**背景**: mRNA 疫苗通过向细胞递送合成信使 RNA，指示细胞产生病毒蛋白以触发免疫反应。与传统疫苗不同，它们不使用活病毒或灭活病毒，因此开发更快、更易修改。该技术在 COVID-19 疫情期间获得大量投资，实现快速规模化。
+**背景**: F-Droid 是 Android 的免费开源应用仓库，提供无用户跟踪或非自由依赖的应用。Google Play 商店长期以来要求开发者注册，但从其他来源侧载通常被允许。新的验证将这一要求扩展到认证设备上的所有应用，可能阻止所有来源的未验证应用。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/MRNA_vaccine">mRNA vaccine - Wikipedia</a></li>
-<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9917162/">A Comprehensive Review of mRNA Vaccines - PMC</a></li>
-<li><a href="https://www.britannica.com/science/mRNA-vaccine">MRNA vaccine | Description, Technology, Uses, & Side Effects ... mRNA Vaccines: Current Applications and Future Directions mRNA Vaccines: What They Are & How They Work - Cleveland Clinic Top Stories mRNA Vaccine Technology Beyond COVID-19 - PMC What are mRNA vaccines and how do they work? - MedlinePlus Revolutionizing immunization: a comprehensive review of mRNA ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/F-Droid">F-Droid</a></li>
+<li><a href="https://developer.android.com/developer-verification">Android developer verification | Android Developers</a></li>
+<li><a href="https://f-droid.org/">F-Droid - Free and Open Source Android App Repository</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论反映了支持和怀疑的混合态度。一些用户称赞制造进步和未来潜力，而另一些则质疑安全性问题如血栓。还有人对政府强制接种导致信任下降表示不满，并指出此番综述可能难以改变反疫苗者的看法。
+**社区讨论**: 社区评论反应不一：一些人支持 F-Droid 的立场并建议切换到 GrapheneOS 等替代操作系统，另一些人则批评文章基调幼稚且适得其反。有评论指出恐慌情绪可能损害 F-Droid 的可信度。
 
-**标签**: `#mRNA vaccines`, `#vaccine safety`, `#global health`, `#community discussion`
+**标签**: `#Android`, `#F-Droid`, `#developer verification`, `#open source`, `#privacy`
 
 ---
 
 <a id="item-6"></a>
-## [索尼将于 2028 年停止 PlayStation 实体游戏光盘生产](https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/) ⭐️ 8.0/10
+## [日本最高法院裁定 AI 不能列为专利发明人](https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/) ⭐️ 8.0/10
 
-索尼宣布，针对 PlayStation 平台新游戏发行的实体光盘生产将于 2028 年 1 月停止。 这标志着游戏行业向纯数字化方向的决定性转变，引发了关于数字所有权、DRM 限制以及游戏长期保存的讨论。 该公告发布前，索尼刚移除了客户数字库中数百部已购买的电影且未退款，凸显了数字所有权的脆弱性。
+日本最高法院裁定，人工智能不能列为专利申请的发明人，只有人类才能被列为发明人。 这一裁决在重要司法管辖区确立了法律先例，明确 AI 生成的发明必须有人类发明人，影响使用 AI 进行研发的公司的专利策略。 该裁决与美国和欧洲的类似立场一致，这些地区的专利局也认为 AI 系统不能作为发明人。裁决不禁止在发明过程中使用 AI，但要求有人的贡献和控制。
 
-hackernews · Tiberium · 7月1日 12:13 · [社区讨论](https://news.ycombinator.com/item?id=48745456)
+hackernews · mushstory · 7月2日 13:43 · [社区讨论](https://news.ycombinator.com/item?id=48761536)
 
-**背景**: 实体游戏光盘传统上允许消费者独立拥有、转售和保存游戏，无需依赖在线服务。游戏行业正逐步转向数字发行，索尼此举可能加速主机实体媒体的终结。
+**背景**: 专利法传统上要求发明人是构思发明的自然人。随着 AI 系统越来越能够生成新颖产出，世界各地的法院和专利局都在纠结 AI 是否可被视为发明人。日本的裁决强化了以人类为中心的发明人观点。
 
-**社区讨论**: 社区评论表达了强烈的不信任，提及索尼近期移除已购买电影以及数字游戏价格高于实体版的现象。部分用户表示，如果任天堂和微软也效仿，他们可能会放弃游戏。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.uspto.gov/subscription-center/2025/revised-inventorship-guidance-ai-assisted-inventions">Revised inventorship guidance for AI-assisted inventions</a></li>
 
-**标签**: `#gaming`, `#physical media`, `#digital rights`, `#PlayStation`, `#industry shift`
+</ul>
+</details>
+
+**社区讨论**: 社区评论普遍支持该裁决，指出 AI 缺乏责任能力，不应拥有利益。其他人质疑实际漏洞，例如发明人在使用 AI 时只需将自己列为发明人。一些评论者引用了反对专利本身的经济学论点。
+
+**标签**: `#AI`, `#patents`, `#intellectual property`, `#Japan`, `#legal ruling`
 
 ---
 
 <a id="item-7"></a>
-## [FFmpeg 9.1 推出新 AAC 编码器，质量提升](https://hydrogenaudio.org/index.php/topic,129691.0.html) ⭐️ 8.0/10
+## [定理证明经济的衰落](https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy) ⭐️ 8.0/10
 
-FFmpeg 9.1 版本引入了一个新的 AAC 编码器，显著提升了编码质量，修复了之前存在的刺耳伪影问题。然而，该编码器目前仅支持恒定比特率（CBR）模式，并且主要针对 48 kHz 采样率进行了优化。 此次更新对依赖 AAC 编码的 FFmpeg 用户非常重要，因为之前的 FFmpeg AAC 编码器质量较差，与 Apple 的 Core Audio 编码器等替代方案相比存在差距。改进后的编码器使 FFmpeg 在不依赖外部工具的情况下，更接近具有竞争力的 AAC 编码水平。 该编码器仅限于恒定比特率（CBR）编码，尚不支持基于质量的可变比特率（VBR）编码。此外，它针对 48 kHz 采样率进行了优化，虽然也支持 44.1 kHz 和 96 kHz 等其他采样率，但质量可能较低。
+David Bessis 认为，随着自动化证明助手和形式化的兴起，传统的定理证明经济正在衰落，数学正转向直觉和可视化。文章批评了系统对定理证明优先权的病态痴迷，而真正的进步往往发生在这一循环之外。 这很重要，因为它标志着数学实践和评估方式的转变，AI 和形式化工具正在挑战学术数学的核心激励结构。它可能将优先权重塑为洞察和理解，而非纯粹的生产定理。 Bessis 指出，在 Lean 等系统中 AI 编写的证明往往无法传达有用的人类洞察，但它们正被越来越多地使用。他主张，从证明过程中获得的直觉比证明本身更有价值。
 
-hackernews · ledoge · 7月1日 14:10 · [社区讨论](https://news.ycombinator.com/item?id=48747116)
+hackernews · varjag · 7月2日 08:01 · [社区讨论](https://news.ycombinator.com/item?id=48758048)
 
-**背景**: 恒定比特率（CBR）编码在整个音频文件中保持固定的比特率，从而获得可预测的文件大小。可变比特率（VBR）编码根据音频复杂度分配比特，通常在相似比特率下实现更好的质量。FFmpeg 是一个广泛使用的开源多媒体框架。新编码器还包含了对 FFmpeg AAC 解码器中立体声 PNS（感知噪声替换）错误的解决方法。
+**背景**: 证明助手是一种软件工具，通过人机协作帮助人类开发形式化证明。形式化验证使用数学方法证明系统的正确性。'定理经济'一词指的是将证明新定理作为数学成就主要货币的学术文化。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://getstream.io/glossary/constant-bitrate/">Constant Bitrate (CBR) - What is it and how does it work?</a></li>
-<li><a href="https://learn.microsoft.com/en-us/windows/win32/wmformat/constant-bit-rate--cbr--encoding">Constant Bit Rate (CBR) Encoding - Win32 apps | Microsoft Learn</a></li>
-<li><a href="https://wiki.hydrogenaudio.org/index.php?title=Constant_Bitrate">Constant Bitrate - Hydrogenaudio Knowledgebase</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Proof_assistant">Proof assistant - Wikipedia</a></li>
+<li><a href="https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy">The fall of the theorem economy - David Bessis</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Formal_verification">Formal verification - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区成员对质量改进表示兴奋，但指出了显著的局限性：仅支持 CBR 和针对 48 kHz 优化。一些人认为 48 kHz 现已成为标准且重采样很简单，而另一些人则对缺乏 VBR 和 44.1 kHz 优化感到遗憾。与 Opus 的比较突出了 Opus 更高的效率。
+**社区讨论**: 评论引用了 Greg Egan 小说《Diaspora》中的'真理挖掘'概念，预见形式化之后数学将演变为可视化和洞察。另一条评论将其与软件测试类比，认为数学家可能采用'经过实战检验'的信心文化而非形式化证明。有些人注意到该文章之前在 Hacker News 上的提交记录。
 
-**标签**: `#FFmpeg`, `#AAC`, `#audio encoding`, `#open source`, `#multimedia`
+**标签**: `#mathematics`, `#formal verification`, `#theorem proving`, `#AI`, `#philosophy of mathematics`
 
 ---
 
 <a id="item-8"></a>
-## [Cloudflare 推出基于 x402 协议的盈利网关](https://blog.cloudflare.com/monetization-gateway/) ⭐️ 8.0/10
+## [Geoffrey Litt 的 '理解以参与' 理念](https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything) ⭐️ 8.0/10
 
-Cloudflare 推出了一款盈利网关，允许网站运营商利用 x402 协议对其网络背后的任何资源进行收费，该协议使用 HTTP 402 状态码实现即时稳定币微支付。 这一发展可能从根本上改变网络盈利方式，实现 API、AI 代理和内容的无摩擦微支付，同时为缓解机器人流量提供新工具。它引发了关于平衡免费用户体验与对自动访问收费的讨论。 x402 协议最初由 Coinbase 提出，使用 Polygon 或 Solana 上的 USDC，旨在让 AI 代理自主支付服务费用。Cloudflare 的实现允许细粒度的收费规则，但引发了关于法律发票、增值税以及潜在垃圾邮件滥用的疑问。
+Geoffrey Litt 在 AIE 会议上提出了“理解以参与”的概念，强调开发者必须深入理解 AI 生成的代码，以避免认知债务并有效与编码代理协作。 这一概念突显了 AI 辅助开发中的一个关键挑战：随着编码代理生成更多代码，开发者面临积累认知债务的风险，这可能会削弱他们指导和改进软件的能力。它将讨论从单纯的生产力转向可持续的理解。 该演讲是 AIE World's Fair 2026 的一部分，所有 300 多场录播将在三周内陆续发布。Litt 还在 Twitter 上发布了演讲的线程版本。
 
-hackernews · soheilpro · 7月1日 13:59 · [社区讨论](https://news.ycombinator.com/item?id=48746914)
+rss · Simon Willison · 7月2日 17:07
 
-**背景**: HTTP 402 状态码“需要付款”在早期 HTTP 规范中就已定义，但从未广泛采用。x402 协议将其重新用于基于区块链的微支付，无需传统支付通道即可实现机器对机器支付。Cloudflare 的盈利网关将此应用于其 CDN 背后的任何资源，例如 API 端点或内容。
+**背景**: 认知债务指的是开发者对代码的理解与实际代码工作方式之间日益扩大的差距，尤其是在代码由 AI 生成的情况下。在 AI 辅助开发中，开发者常常在不完全理解的情况下接受 AI 生成的代码，导致心理负担增加，并降低做出明智更改的能力。“理解以参与”理念认为，为了与编码代理有效协作，开发者必须保持足够深入的理解，以主动塑造项目。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://cheetahai.co/blog/post-46">x 402 Protocol Explained: Engineering HTTP-Native Payments for AI...</a></li>
-<li><a href="https://www.linkedin.com/posts/felipe-florenci0_coinbase-shipped-x402-a-protocol-that-lets-activity-7447008792283742208-sE-s">Coinbase Ships x 402 Protocol for AI Payments on Polygon... | LinkedIn</a></li>
+<li><a href="https://x.com/geoffreylitt/status/2072522267414901109">That's where another answer comes in: we can understand to ...</a></li>
+<li><a href="https://dev.to/bala_paranj_059d338e44e7e/six-contradictions-behind-cognitive-debt-in-ai-assisted-development-30no">Six Contradictions Behind Cognitive Debt in AI Assisted Development</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区意见分歧：一些人认为这是基于代理的微支付的梦想解决方案，而另一些人则担心它可能助长新型垃圾邮件和滥用。担忧包括法律复杂性、难以区分机器人和人类，以及保留合法用户的免费访问。
-
-**标签**: `#cloudflare`, `#monetization`, `#microtransactions`, `#x402`, `#web`
+**标签**: `#AI-assisted development`, `#coding agents`, `#cognitive debt`, `#software engineering`
 
 ---
 
 <a id="item-9"></a>
-## [Optimistic Provide：IPFS 内容发布速度提升 10 倍](https://probelab.io/blog/optimistic-provide/) ⭐️ 8.0/10
+## [ECTC 2026 综述：EMIB-T、HBM4、光子互连等](https://newsletter.semianalysis.com/p/ectc2026) ⭐️ 8.0/10
 
-ProbeLab 提出了“Optimistic Provide”技术，通过将 IPFS 内容发布过程部分异步化，实现了 10 倍的速度提升，并将网络开销降低了 40%。 这一优化显著缩短了内容在 IPFS 上可被发现的时间，使该网络在大规模实际发布中更加实用，但社区讨论也指出了对生产环境可靠性的担忧。 Optimistic Provide 不再等待所有 DHT PUT 操作完成，而是在大多数成功后即返回控制，剩余部分在后台完成，以速度换取完全一致性。
+在 ECTC 2026 上，Intel 推出了 EMIB-T，这是一种支持更大芯片尺寸和 HBM4 的先进封装技术，同时台积电、SK 海力士、三星、美光、Marvell、Lightmatter 和微软展示了定制 HBM、微流体冷却和光子互连方面的进展。 这些进展对于扩展 AI 硬件和芯片架构至关重要，因为先进封装直接影响性能、带宽和热管理。 EMIB-T 支持最大 120x180mm 的封装尺寸、超过 38 个桥接以及超过 12 个光罩尺寸的芯片。光子互连旨在用电光通路替代电气 I/O，以降低功耗并增加带宽。
 
-hackernews · dennis-tra · 7月1日 15:30 · [社区讨论](https://news.ycombinator.com/item?id=48748518)
+rss · Semianalysis · 7月2日 17:25
 
-**背景**: IPFS（星际文件系统）使用分布式哈希表（DHT）将内容标识符（CID）映射到对等点地址。发布内容需要向多个 DHT 对等点广播 CID，由于网络延迟和节点变化，这一过程可能很慢。Optimistic Provide 放宽了等待所有确认的要求，以暂时的不一致性为代价实现了更快的发布。
+**背景**: 先进半导体封装将多个芯片（小芯片）集成到一个封装中，以提高性能并降低成本。EMIB（嵌入式多芯片互连桥）是 Intel 用于高密度芯片间连接的技术。光子互连使用光进行数据传输，比电气互连提供更高的带宽和更低的功耗。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://probelab.io/blog/optimistic-provide/">Optimistic Provide: How We Made IPFS Content Publishing 10x Faster - Blog | ProbeLab Analytics</a></li>
-<li><a href="https://ipshipyard.com/blog/2025-dht-provide-sweep/">Provide Sweep: Solving the DHT Bottleneck for Self-Hosting IPFS at Scale</a></li>
+<li><a href="https://www.tomshardware.com/pc-components/cpus/intel-details-new-advanced-packaging-breakthroughs-emib-t-paves-the-way-for-hbm4-and-increased-ucie-bandwidth">Intel details new advanced packaging breakthroughs — EMIB - T paves...</a></li>
+<li><a href="https://lightmatter.co/knowledge-hub/how-do-photonic-interconnects-work/">How Do Photonic Interconnects Work? - lightmatter.co</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应不一：一些人赞赏性能提升，另一些人则批评其声称具有误导性，因为实际完成的工作量并未减少。还有人对 IPFS 的生产就绪性提出质疑，用户指出查找时间仍然是瓶颈。
-
-**标签**: `#IPFS`, `#distributed systems`, `#performance optimization`, `#content publishing`, `#DHT`
+**标签**: `#semiconductor packaging`, `#HBM`, `#photonic interconnects`, `#ECTC`, `#advanced cooling`
 
 ---
 
 <a id="item-10"></a>
-## [安全启动证书过期，Linux 用户需采取行动](https://lwn.net/Articles/1079808/) ⭐️ 8.0/10
+## [LLM 辅助的内存管理补丁集被评估](https://lwn.net/Articles/1080162/) ⭐️ 8.0/10
 
-用于签名 Linux shim 引导加载程序的 Microsoft UEFI CA 2011 证书已于 2026 年 6 月 26 日过期。它将被有效期至 2038 年的 Microsoft UEFI CA 2023 证书取代。 如果固件信任存储未更新新证书，系统在安装新的 shim 二进制文件后可能无法启动，影响所有启用安全启动的 Linux 用户。管理员必须主动更新固件以防止启动失败。 在过期前已成功启动的现有系统将继续正常启动。问题仅出现在将使用 2023 证书签名的新 shim 引入到 UEFI 信任数据库中缺少新证书的系统时。
+两个由资深内核开发者借助 LLM 开发的大型内存管理补丁集正在被 Linux 内核社区评估。 这标志着 AI 生成贡献被接受的方式的转变，来自受尊敬开发者的补丁被认真对待，可能为未来的 LLM 辅助工作树立先例。 其中一套由 Rik van Riel 提出的补丁引入了“超级页块”，旨在无需依赖不灵活的 hugetlbfs 预留系统即可可靠分配 1GB 大页，解决内存碎片化挑战。
 
-rss · LWN.net · 7月1日 13:18
+rss · LWN.net · 7月2日 14:06
 
-**背景**: UEFI 安全启动通过使用存储在固件中的证书，确保仅执行已签名的启动代码。Microsoft 为 Linux 发行版签名 shim 引导加载程序，再由 shim 加载 GRUB 和内核。2011 证书的过期要求更新固件的信任锚点以包含新的 2023 证书，从而保持与未来签名二进制的兼容性。
+**背景**: 长期运行的 Linux 系统中内存碎片化使得大块连续内存分配变得困难。内核使用页块（如 4MB）来管理碎片，但 1GB 分配在没有 hugetlbfs 的情况下不可靠，而 hugetlbfs 在启动时预留内存。超级页块旨在为分配决策提供新的可见性层次。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://support.microsoft.com/en-us/topic/windows-secure-boot-certificate-expiration-and-ca-updates-7ff40d33-95dc-4c3c-8725-a9b95457578e">Windows Secure Boot certificate expiration and CA updates</a></li>
-<li><a href="https://techcommunity.microsoft.com/blog/windows-itpro-blog/secure-boot-playbook-for-certificates-expiring-in-2026/4469235">Secure Boot playbook for certificates expiring in 2026</a></li>
-<li><a href="https://stackpulse.news/windows-and-linux-secure-boot-deadlines-wont-brick-most-pcs-but-they-will-freeze-future-boot-security-fixes/">Windows and Linux Secure Boot Deadlines Won't Brick Most PCs, but...</a></li>
+<li><a href="https://www.pingcap.com/blog/linux-kernel-vs-memory-fragmentation-1/">Memory Fragmentation in Linux: Causes, Fixes & Tools</a></li>
+<li><a href="https://www.alibabacloud.com/help/en/alinux/support/solutions-to-memory-fragmentation-in-linux-operating-systems">Fix performance issues due to Linux memory fragmentation - Alibaba Cloud Linux - Alibaba Cloud</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Secure Boot`, `#Linux`, `#certificate expiration`, `#UEFI`, `#security`
+**社区讨论**: 文章指出，来自未知开发者的 LLM 贡献曾受到质疑，但来自资深开发者的补丁得到了更认真的评估，凸显了贡献者声誉的重要性。
+
+**标签**: `#Linux kernel`, `#LLM`, `#memory management`, `#patch sets`, `#open source`
 
 ---
 
 <a id="item-11"></a>
-## [SentryCode：面向 AI 编码代理的实时审计与蜜令工具](https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/) ⭐️ 8.0/10
+## [苹果协助 FBI 溯源 iCloud 匿名邮箱用户](https://t.me/zaihuapd/42302) ⭐️ 8.0/10
 
-SentryCode 是一款开源的内核级审计工具，实时监控 AI 编码代理，利用蜜令实现零误报的入侵检测，并能检测隐写加密的隐蔽信道。它提供防篡改的审计日志并执行安全策略，所有功能均在本地运行，无任何外连请求。 随着 AI 编码代理日益普及，其遥测和环境扫描行为引发隐私担忧。SentryCode 让用户能够监控和控制代理行为，为安全部署 AI 代理树立了新标杆。 该工具在内核层面运行，记录文件、网络及环境信号（cue）活动。它包含蜜令令牌，在出现未授权访问时触发警报，并能检测用于数据窃取的隐写加密隐蔽信道。
+苹果向 FBI 提供了与一个用于发送威胁信息的“隐藏邮箱地址”相关联的真实 iCloud 账户信息，导致嫌疑人 Alden Ruml 被识别并承认发送威胁邮件。 此案表明，苹果宣传为隐私保护工具的“隐藏邮箱地址”功能并非完全匿名，在执法调查中可追溯到用户身份，这动摇了用户对苹果隐私承诺的信任。 嫌疑人 Alden Ruml 通过“隐藏邮箱地址”功能创建了 134 个匿名邮箱地址，并承认向 FBI 局长 Kash Patel 的女友 Alexis Wilkins 发送了威胁信息。
 
-reddit · r/MachineLearning · /u/cyh-c · 7月2日 03:48
+telegram · zaihuapd · 7月2日 01:03
 
-**背景**: 蜜令（Honeytoken）是诱饵资源（如虚假数据库条目或凭证），用于吸引攻击者；任何访问都意味着入侵。隐蔽信道（Covert channel）是绕过正常安全控制的隐藏通信路径，常利用隐写术将数据隐藏于合法流量中。内核级审计是在操作系统内核层面监控系统调用和事件，比用户态监控提供更深的可见性。
+**背景**: iCloud+的“隐藏邮箱地址”功能允许付费订阅用户生成唯一的随机邮箱地址，这些地址会转发到用户的个人收件箱，旨在注册服务时保护隐私。然而，苹果保留了匿名地址与用户真实 iCloud 账户之间的映射关系，并可在有效执法请求时提供此信息。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.crowdstrike.com/en-us/cybersecurity-101/identity-protection/honeytokens/">What are Honeytokens ? | CrowdStrike</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Covert_channel">Covert channel - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Steganography">Steganography - Wikipedia</a></li>
+<li><a href="https://www.landian.news/archives/112374.html">iCloud+ 隐 藏 邮 件 地 址 可不 能 乱用：苹果帮助FBI... | 蓝点网</a></li>
+<li><a href="https://www.ithome.com/0/934/278.htm">苹果被指向美执法部门披露使用隐私邮箱用户的真实身份 - IT之家</a></li>
+<li><a href="https://www.sohu.com/a/1003418999_362225">苹果“隐藏我的邮箱”功能遭挑战：向美执法部门披露用户真实信息</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI safety`, `#cybersecurity`, `#open-source`, `#privacy`, `#tool`
+**标签**: `#privacy`, `#Apple`, `#law enforcement`, `#iCloud`, `#anonymity`
 
 ---
 
 <a id="item-12"></a>
-## [MOTHRAG：无图多跳 RAG 超越基于图的系统](https://www.reddit.com/r/MachineLearning/comments/1ukotww/p_mothretrieval_graphfree_multihop_retrieval_via/) ⭐️ 8.0/10
+## [Meta 拟出售富余 AI 算力，进军云计算市场](https://www.bloomberg.com/news/articles/2026-07-02/south-korean-stocks-tumble-6-as-ai-jitters-hurt-chipmakers) ⭐️ 8.0/10
 
-研究者开源了 MOTHRAG，这是一个无图的多跳检索增强生成（RAG）框架，在不依赖知识图谱的情况下，在 HotpotQA、2WikiMultiHopQA 和 MuSiQue 上达到了最先进的准确率。它使用稠密索引和查询时编排，避免了像 GraphRAG 和 HippoRAG 等基于图的系统所需的高成本重新索引。 这很重要，因为动态数据（如每日更新）使得基于图的 RAG 系统因频繁重新索引而成本高昂。MOTHRAG 提供了一种实用且经济的替代方案（在商业 API 上每次查询约 0.03 美元），同时保持了有竞争力的准确性，使得多跳推理在数据频繁变化的实际应用中变得可行。 MOTHRAG 在 HotpotQA（78.1 对 78.3）和 2WikiMultiHopQA（76.3 对 76.1）上与基于图的 GPU 系统持平，但由于检索召回率瓶颈，在 MuSiQue（50.5 对 52.6）上落后。该框架采用 Apache-2.0 许可证，可通过 pip 安装并使用标准 API 密钥运行。
+Meta 正计划向外部客户出售多余的 AI 算力和模型服务，此举标志着其可能进军云计算市场。同时，苹果正洽谈向中国存储芯片厂商 YMTC 和 CXMT 采购芯片，这两则消息导致三星电子和 SK 海力士等韩国芯片股大幅下跌。 这一进展引发市场担忧大型科技公司可能放缓 AI 基础设施投资，从而导致 AI 芯片和存储组件供应过剩。同时，苹果向中国供应商多元化采购，威胁到韩国存储龙头企业的市场主导地位。 2026 年 7 月 2 日，韩国 Kospi 指数一度下跌 7%，三星电子和 SK 海力士跌幅至少 8%，导致韩国交易所暂停了 Kospi 期货的程序化卖出。据报道，苹果正与 YMTC（NAND 闪存）和 CXMT（DRAM）洽谈，为其在中国市场销售的设备采购芯片。
 
-reddit · r/MachineLearning · /u/Annual-Commercial563 · 7月1日 15:26
+telegram · zaihuapd · 7月2日 02:29
 
-**背景**: 多跳 RAG 旨在回答需要从多个文档中获取信息的问题，通常使用知识图谱来表示关系。GraphRAG 等基于图的系统构建离线图谱，当数据变化时更新成本高昂。MOTHRAG 通过使用稠密向量索引并在运行时编排查询来绕过图谱，从而能够通过简单的嵌入和追加实现增量更新。
+**背景**: Meta 一直在大力投资 AI 基础设施，建设大规模计算集群用于训练和推理。现在其考虑将富余算力对外销售，类似于亚马逊 AWS 源于其内部基础设施。与此同时，中国存储厂商 YMTC 和 CXMT 已能生产具有竞争力的 NAND 和 DRAM 产品，对韩国老牌厂商构成挑战。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/juliangeymonat-jpg/mothrag">GitHub - juliangeymonat-jpg/mothrag: Deterministic agentic ...</a></li>
-<li><a href="https://mothrag.com/">MothRag — multi-hop AI for data that changes, on the APIs you ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/YMTC">YMTC</a></li>
+<li><a href="https://en.wikipedia.org/wiki/CXMT">CXMT</a></li>
 
 </ul>
 </details>
 
-**标签**: `#RAG`, `#multi-hop retrieval`, `#knowledge graphs`, `#machine learning`, `#open-source`
+**标签**: `#AI`, `#Meta`, `#Cloud Computing`, `#Semiconductors`, `#Market`
 
 ---
 
 <a id="item-13"></a>
-## [Gnosys 在标签稀缺下改进分类器](https://www.reddit.com/r/MachineLearning/comments/1ul3ohk/making_optimization_work_when_labels_are_scarce_r/) ⭐️ 8.0/10
+## [Cloudflare 9 月起默认拦截混合用途 AI 爬虫，点名谷歌](https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/) ⭐️ 8.0/10
 
-Gnosys（一个自主模型工程师）提出了一种在稀疏标签条件下优化分类器的方法，在 ToxicChat 安全基准测试中超越了初始分类器和 GEPA 提示优化器，在包含 3000 个标签的主要运行中，有害内容捕获率达到 0.777，而初始分类器为 0.731，GEPA 为 0.702。 这解决了现实世界中的一个关键问题——真实标签稀缺且昂贵，常见于内容审核、欺诈检测和风险评分等领域。通过从稀疏标签中设计出可信的目标函数，Gnosys 无需大规模标注数据集即可实现更可靠的分类器优化。 该方法将少量已验证的标签集（例如 200 个标签）与大量未标记数据融合，生成校准后的质量估计，包括逐片校准和信号可信度检查。在包含 1000 个标签的先前运行中，Gnosys 的有害内容捕获率达到 0.909，而初始分类器为 0.788，GEPA 为 0.848，且 GEPA 在不同运行中表现不一致。
+Cloudflare 宣布，自 2026 年 9 月 15 日起，将默认拦截同时用于搜索索引和 AI 训练的“混合用途”AI 爬虫，被阻止的页面将包括带有广告的网页。该公司特别批评谷歌利用了一个漏洞：许多发布商阻止了 AI 爬虫但允许谷歌搜索爬虫，而谷歌却将抓取的内容用于 AI 训练。 这项政策迫使 AI 公司要么按功能区分爬虫，要么为内容使用付费，可能改变网络发布商与 AI 开发者之间的经济平衡。它可能为其他互联网基础设施服务商树立先例，并赋予发布商更多对其内容如何用于 AI 训练的控制权。 默认拦截适用于新注册的 Cloudflare 网站和现有免费套餐用户，付费用户可自行选择开启或关闭。此外，Cloudflare 与 Ceramic.ai 和 You.com 合作，推出了按使用付费的收入模式，允许 AI 公司根据实际使用情况向发布商支付补偿。
 
-reddit · r/MachineLearning · /u/Kody--- · 7月2日 00:59
+telegram · zaihuapd · 7月2日 05:37
 
-**背景**: 标签稀缺是高风险 AI 应用中的常见挑战，因为获取真实标签需要昂贵的人工判断。Gnosys 是一个自主模型工程师，可自动化整个优化周期；而 GEPA 是一个标准提示优化器，通过进化搜索改进提示。ToxicChat 基准测试基于开源聊天机器人的真实用户查询构建，旨在捕捉用户与 AI 交互中的细微毒性。
+**背景**: Cloudflare 是一家主要的互联网基础设施公司，为大量网站提供安全与性能服务。AI 爬虫是自动程序，用于抓取网站内容以训练大型语言模型。发布商面临两难：他们希望允许搜索引擎爬虫收录内容以提升可见度，但又不希望 AI 公司未经补偿就抓取内容用于训练。谷歌被指控忽视发布商的退出设置，并利用其搜索爬虫数据训练 AI，尽管声称其 Google-Extended 爬虫允许选择退出。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/gepa-ai/gepa">GitHub - gepa-ai/gepa: Optimize prompts, code, and more with ...</a></li>
-<li><a href="https://arxiv.org/abs/2310.17389">[2310.17389] ToxicChat: Unveiling Hidden Challenges of ... ToxicChat: A Benchmark for Content Moderation in Real-world ... ToxicChat: Unveiling Hidden Challenges of Toxicity Detection ... [2310.17389] ToxicChat: Unveiling Hidden Challenges of ... TOXIC C : Unveiling Hidden Challenges of Toxicity Detection ... ToxicChat Dataset - Papersgraph lmsys/toxic-chat · Datasets at Hugging Face</a></li>
+<li><a href="https://www.chatai.com/posts/cloudflare-changes-ai-crawling-rules-blocking-mixed-use-ai-bots-by-default">Cloudflare Changes AI Crawling Rules, Blocking Mixed - Use ... | ChatAI</a></li>
+<li><a href="https://www.wired.com/story/cloudflare-blocks-ai-crawlers-default/">Cloudflare Is Blocking AI Crawlers by Default | WIRED</a></li>
+<li><a href="https://www.newsbytesapp.com/news/science/google-reveals-ai-training-loophole-in-court-testimony/story">Google can train AI using web content despite publisher opt-out</a></li>
 
 </ul>
 </details>
 
-**标签**: `#label scarcity`, `#optimization`, `#safety classifier`, `#prompt optimization`, `#machine learning`
+**标签**: `#Cloudflare`, `#AI crawlers`, `#web scraping`, `#Google`, `#publisher rights`
 
 ---
 
 <a id="item-14"></a>
-## [包括 Visa、Mastercard 在内的 140 多家企业联合发起 Open Standard 稳定币网络](https://www.reuters.com/business/consortium-including-visa-mastercard-jointly-launch-new-global-stablecoin-2026-06-30/) ⭐️ 8.0/10
+## [企业因 AI 成本飙升限制使用](https://www.404media.co/companies-are-throttling-employees-ai-use-because-its-too-expensive/) ⭐️ 8.0/10
 
-2026 年 6 月 30 日，一个由 Visa、Mastercard 和 Coinbase 等 140 多家公司组成的联盟宣布了 Open Standard 网络及其锚定美元的稳定币 Open USD（OUSD）。该网络允许免费无限铸造和赎回 OUSD，储备收益在扣除管理费后由合作伙伴共享。 这标志着稳定币在全球支付领域向主流企业采用迈出重要一步，联盟的开放基础设施解决了高成本和吞吐量有限等关键障碍。共享所有权模型可能将稳定币市场从发行人控制的竞争转向生态系统驱动的竞争。 Open Standard 计划在 2026 年晚些时候推出 Open USD，由一个独立实体管理，储备收益流向成员合作伙伴。该举措恰逢美国最近颁布的联邦稳定币监管框架《GENIUS 法案》。
+花旗银行、Atlassian 和 Adobe 等公司正限制员工使用 GPT-5.5 和 Claude Opus 4.6 等高级 AI 模型，原因在于按用量计费模式下成本不可控地飙升。Atlassian 的月度 AI 支出从 2025 年 8 月的 500 万美元增至 2026 年 5 月的逾 1500 万美元。 这揭示了企业 AI 应用面临的具体财务挑战，与无限 AI 整合的叙事相矛盾。企业可能需要采取成本管理策略，可能减缓 AI 在业务流程中的部署。 花旗银行于 2026 年 6 月 24 日禁止了 GPT-5.5 和 Claude Opus 4.6，原因是这些模型消耗的 AI 积分过高。Atlassian 推出了成本追踪面板并终止了无限使用，Adobe 则未续签将于 2026 年 6 月 30 日到期的无限 Claude 合同。
 
-telegram · zaihuapd · 7月1日 11:06
+telegram · zaihuapd · 7月2日 13:59
 
-**背景**: 稳定币是锚定稳定资产（如美元）的数字代币，用于支付和转账。目前，由于发行人控制和开放基础设施的缺乏，大多数稳定币用于加密货币交易而非日常商业。于 2025 年签署成为法律的《GENIUS 法案》为美国稳定币发行人提供了首个联邦监管明确性。
+**背景**: GPT-5.5 是 OpenAI 于 2026 年 4 月 23 日发布的大型语言模型，以高基准分数和曾倾向于提及地精（后已修正）而闻名。Claude Opus 4.6 是 Anthropic 于 2026 年 2 月 5 日发布的旗舰模型。这些模型通过 API 以按用量计费的形式提供，企业按处理的 token 数付费，在员工大规模使用时会导致不可预测的成本。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://thedefiant.io/converge/tradfi-and-fintech/open-standard-open-usd-ousd-stablecoin-consortium-blackrock-visa-mastercard">Open Standard Unveils Open USD, a Bank- and Tech-Backed Stablecoin Governed by Its Users - "The Defiant"</a></li>
-<li><a href="https://www.pymnts.com/cryptocurrency/2026/open-usd-just-turned-the-stablecoin-race-into-an-ecosystem-battle/">Open USD Just Turned the Stablecoin Race Into an Ecosystem Contest | PYMNTS.com</a></li>
-<li><a href="https://www.lw.com/en/insights/the-genius-act-of-2025-stablecoin-legislation-adopted-in-the-us">The GENIUS Act of 2025 Stablecoin Legislation Adopted in the US</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GPT-5.5">GPT-5.5</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Opus_4.6">Claude Opus 4.6</a></li>
+<li><a href="https://openai.com/index/introducing-gpt-5-5/">Introducing GPT‑5.5 - OpenAI</a></li>
 
 </ul>
 </details>
 
-**标签**: `#stablecoin`, `#blockchain`, `#payments`, `#Visa`, `#Mastercard`
+**标签**: `#AI cost`, `#enterprise AI`, `#cost management`, `#AI adoption`, `#technology news`
 
 ---
 
 <a id="item-15"></a>
-## [ChatGPT 周活跃用户不到一年翻倍至 2 亿](https://t.me/zaihuapd/42298) ⭐️ 8.0/10
+## [Anthropic 与三星洽谈代工自研 AI 芯片](https://www.theinformation.com/articles/anthropic-talks-samsung-manufacture-custom-ai-chip) ⭐️ 8.0/10
 
-OpenAI 宣布 ChatGPT 每周活跃用户超过 2 亿，较 2023 年 11 月报告的 1 亿翻倍。此外，92%的财富 500 强公司使用 OpenAI 产品，自 GPT-4o Mini 发布后 API 使用量翻了一番。 这一里程碑凸显了 OpenAI 在消费者 AI 市场的主导地位，尽管谷歌、微软和 Meta 也在竞争。企业采用和 API 使用量的快速增长表明，企业将 OpenAI 的模型视为运营必需，可能加速 AI 在各行各业的应用。 财富 500 强采用率已达到 92%，较此前数据上升。API 使用量在 GPT-4o Mini 发布后翻倍，该模型更小且成本更低，支持 128K 上下文和 16K 输出 token。有传言称苹果和英伟达可能参与 OpenAI 下一轮融资。
+Anthropic 已启动自研 AI 芯片的开发工作，并与三星电子就潜在制造合作进行早期洽谈，旨在加强对 Claude 模型算力基础设施的控制。 此举表明 Anthropic 正战略性地向 AI 硬件垂直整合迈进，减少对谷歌和亚马逊等外部芯片供应商的依赖。若成功，有望提升 Claude 的性能和成本效率，与 OpenAI 的芯片计划类似。 该项目仍处于早期阶段，Anthropic 最终也可能决定仅购买 AI 芯片而非自研。自研 AI 芯片成本极高，研发投入可能超过 5 亿美元。
 
-telegram · zaihuapd · 7月1日 13:01
+telegram · zaihuapd · 7月2日 15:57
 
-**背景**: ChatGPT 于 2022 年 11 月推出，迅速成为增长最快的消费级应用。GPT-4o Mini 于 2024 年 7 月发布，是 GPT-4o 的缩小版本，旨在以更低成本提供强大性能，对 API 用户具有吸引力。该模型在 ChatGPT 上取代了 GPT-3.5 Turbo，支持文本和视觉，上下文窗口为 128K token。
+**背景**: Meta、OpenAI 和谷歌等主要 AI 公司越来越多地自研定制芯片，以减少对英伟达 GPU 的依赖并针对自身工作负载优化。三星的晶圆代工业务近期开始有选择性地接受新客户，市场正发生变化。Anthropic 目前严重依赖谷歌 TPU 和亚马逊自研芯片来满足 Claude 的算力需求。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/">GPT-4o mini: advancing cost-efficient intelligence | OpenAI</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GPT-4o">GPT-4o - Wikipedia</a></li>
+<li><a href="https://finance.sina.com.cn/stock/usstock/c/2026-07-02/doc-inifmrtq5832255.shtml">知情人士：Anthropic正与三星洽谈定制AI芯片代工合作_新浪财经_新浪网</a></li>
+<li><a href="https://www.tradingkey.com/zh-hans/analysis/stocks/us-stock/261770244-from-openai-to-anthropic-in-house-chip-development-tradingkey">从OpenAI到Anthropic： AI巨头算力自主战打响，芯片自研成必选项？</a></li>
+<li><a href="https://www.ithome.com/0/971/836.htm">现在是供方时间：消息称三星晶圆代工已开始选择性接受新客户订单 - IT...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#ChatGPT`, `#OpenAI`, `#AI adoption`, `#user growth`, `#Fortune 500`
-
----
-
-<a id="item-16"></a>
-## [国巨 7 月 1 日起全线电容涨价约五成](https://www.trendforce.com/news/2026/07/01/news-passive-component-prices-rise-as-yageo-reportedly-begins-broadest-capacitor-hike-in-years-on-july-1/) ⭐️ 8.0/10
-
-国巨宣布自 7 月 1 日起调涨全系列电容产品价格，包括 MLCC、铝电解电容和钽电容等，涨幅约 50%，为近年来最大范围涨价。 此次涨价将深刻影响全球电子供应链，尤其是 AI 服务器与电动车领域需求激增。这也是国巨首度对占比过半的直接客户涨价，有望显著拉动其营收与利润。 官方报价涨幅约 50%，但现货市场高端 MLCC 近一个月内价格甚至上涨近十倍。涨价主要因地缘政治、能源与原材料成本上升以及 AI 服务器与电动车需求推动。由于日韩厂商全力投入高端 AI 用 MLCC，常规产能受限，国巨有望承接转单。
-
-telegram · zaihuapd · 7月1日 14:34
-
-**背景**: 电容器是电子电路中的被动元件，用于存储和释放电能，几乎在所有电子设备中不可或缺。MLCC（多层陶瓷电容）是最常见的类型，以小尺寸实现高电容。被动元件在物料清单（BOM）成本中占有一定比例，而在 AI 服务器中，其占比已升至仅次于 GPU 和内存。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/MLCC">MLCC - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Passive_components">Passive components</a></li>
-
-</ul>
-</details>
-
-**标签**: `#capacitors`, `#supply chain`, `#price hike`, `#passive components`, `#Yageo`
+**标签**: `#Anthropic`, `#AI chips`, `#semiconductor`, `#Samsung`, `#AI infrastructure`
 
 ---
