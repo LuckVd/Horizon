@@ -5,327 +5,216 @@ date: 2026-07-21
 lang: zh
 ---
 
-> 从 42 条内容中筛选出 14 条重要资讯。
+> 从 41 条内容中筛选出 9 条重要资讯。
 
 ---
 
-1. [Fastjson 1.x 被曝无依赖 gadget 高危 RCE 漏洞](#item-1) ⭐️ 9.0/10
-2. [智谱建成全国产芯片大型数据中心](#item-2) ⭐️ 9.0/10
-3. [Jane Street 的 Incremental 库实现了高效重计算。](#item-3) ⭐️ 8.0/10
-4. [人类数学家正被 AI 反例生成反超](#item-4) ⭐️ 8.0/10
-5. [AI 代理集群实现每秒 1000 次提交，采用自定义版本控制系统](#item-5) ⭐️ 8.0/10
-6. [中国开放权重 AI 战略正赢得优势](#item-6) ⭐️ 8.0/10
-7. [为什么我停止‘创造内容’](#item-7) ⭐️ 8.0/10
-8. [Jellyfin 创始人 Andrew 因倦怠离职](#item-8) ⭐️ 8.0/10
-9. [Claude Code 团队透露内部 AI 工具采用指标](#item-9) ⭐️ 8.0/10
-10. [逆向工程现在很便宜](#item-10) ⭐️ 8.0/10
-11. [Ben Thompson 提议制定合理使用法促进美国 AI 模型发展](#item-11) ⭐️ 8.0/10
-12. [X 安卓客户端从零重建，提升速度和稳定性](#item-12) ⭐️ 8.0/10
-13. [Cloudflare 内部 DNS 服务正式上线](#item-13) ⭐️ 8.0/10
-14. [Jellyfin 三位联合创始人集体辞职](#item-14) ⭐️ 8.0/10
+1. [Incremental：用于增量计算的 OCaml 库](#item-1) ⭐️ 8.0/10
+2. [AI 在生成反例方面超越人类数学家](#item-2) ⭐️ 8.0/10
+3. [代理群实现每秒千次提交，催生定制版本控制系统](#item-3) ⭐️ 8.0/10
+4. [Claude Code 团队炉边谈话揭晓内部指标](#item-4) ⭐️ 8.0/10
+5. [本·汤普森提议美国立法促进开放模型对抗中国 AI](#item-5) ⭐️ 8.0/10
+6. [智谱建成全国产芯片大型数据中心](#item-6) ⭐️ 8.0/10
+7. [谷歌被曝开发&\#x27;Frozen v2&\#x27;芯片，将 Gemini 写入硬件](#item-7) ⭐️ 8.0/10
+8. [阿里将推千问办公，整合三款智能体](#item-8) ⭐️ 8.0/10
+9. [谷歌发布 Gemini 3.6 Flash 并透露 Gemini 4 预训练](#item-9) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Fastjson 1.x 被曝无依赖 gadget 高危 RCE 漏洞](https://x.com/k_firsov/status/2078872293745570032) ⭐️ 9.0/10
+## [Incremental：用于增量计算的 OCaml 库](https://github.com/janestreet/incremental) ⭐️ 8.0/10
 
-安全研究人员 Kirill Firsov 披露，Fastjson 1.2.68 至 1.2.83 版本存在高危远程代码执行漏洞，无需开启 autoType 或依赖 classpath gadget，可在 JDK 8/17/21 上利用。 该漏洞严重性高，因为它影响广泛使用的 JSON 库且无需特殊配置，而 Fastjson 1.x 已停止维护，迫使用户紧急迁移至 Fastjson2 或启用 SafeMode。可能影响大量依赖 Fastjson 的 Java 应用。 该漏洞无需 autoType 特性或任何 classpath gadget，使得利用更简单。Fastjson 1.x 自 2024 年 10 月起已停止维护，因此维护者预计不会发布官方补丁。
+Jane Street 发布了 Incremental，这是一个 OCaml 库，能够在输入数据变化时高效地部分重新评估计算图。 该库将增量计算引入 OCaml，可提升电子表格重新计算、UI 更新和派生数据同步等应用的性能，并与响应式编程和构建系统等更广泛的趋势相联系。 Incremental 基于自调整计算研究构建，支持电子表格式计算和 GUI 视图更新等用例，并被 Jane Street 的 Bonsai UI 库所使用。
 
-telegram · zaihuapd · 7月20日 14:32
+hackernews · handfuloflight · 7月21日 03:50 · [社区讨论](https://news.ycombinator.com/item?id=48987822)
 
-**背景**: Fastjson 是阿里巴巴开发的一款流行的 Java JSON 解析与序列化库。autoType 特性允许反序列化时自动解析类型，若未安全配置可被利用。“gadget”是攻击链中依赖的类路径上的类。该漏洞绕过了 autoType 和 gadget 的需求，因此特别危险。
+**背景**: 增量计算是一种通过仅重新计算依赖于变化数据的输出来节省时间的技术，常用于电子表格和构建系统。Incremental 库在 OCaml 中实现了这一技术，灵感来源于自调整计算研究。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://cloud.tencent.com/developer/information/fastjson+autotype">fastjson autotype - 腾讯云开发者社区 - 腾讯云</a></li>
-<li><a href="https://yq1ng.github.io/2021/10/19/java-fan-xu-lie-hua-lou-dong-wu-xue-xi-di-yi-ge-gadget-urldns/">Java 反 序 列 化 漏洞(五)--学习第一个 gadget -URLDNS | 会下雪的晴天</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Incremental_computation">Incremental computation</a></li>
+<li><a href="https://github.com/janestreet/incremental">GitHub - janestreet/incremental: A library for incremental ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#fastjson`, `#rce`, `#vulnerability`, `#security`, `#json`
+**社区讨论**: 评论者指出 Incremental 与 JavaScript 框架中的响应式编程信号类似，并将其与构建系统和差分数据流系统（如 Materialize）进行比较。有评论提到高盛曾采用类似方法进行工具定价。讨论积极且富有洞察力，展示了各种应用和联系。
+
+**标签**: `#incremental computation`, `#reactive programming`, `#OCaml`, `#janestreet`, `#signals`
 
 ---
 
 <a id="item-2"></a>
-## [智谱建成全国产芯片大型数据中心](https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai) ⭐️ 9.0/10
+## [AI 在生成反例方面超越人类数学家](https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/) ⭐️ 8.0/10
 
-智谱完成了一座全部采用国产芯片的大型数据中心建设，功率达 1 吉瓦，已开始部分运营，用于支持其 GLM 平台的开发。 这一里程碑证明了使用国产芯片进行大规模 AI 训练的可行性，标志着中国 AI 产业在算力基础设施自主可控方面取得了战略进展。 该数据中心功率达 1 吉瓦，足以为约 75 万户家庭供电。智谱已运营多个超万枚芯片的计算集群，新设施是中国 AI 实验室建造的最大规模之一。
+AI 系统如今生成数学中 97%的反例，超越人类数学家，正在改变研究实践。 这一转变使数学家能够快速证伪错误猜想，节省时间并专注于证明真实命题，同时也重新定义了人类直觉在数学发现中的作用。 相关技术包括将猜想重构为优化或搜索任务，利用机器学习和计算搜索来探索巨大的可能性空间。
 
-telegram · zaihuapd · 7月20日 15:43
+hackernews · artninja1988 · 7月20日 19:03 · [社区讨论](https://news.ycombinator.com/item?id=48983382)
 
-**背景**: GLM（通用语言模型）是智谱（Z.AI）开发的一系列开源权重的大语言模型，该公司是中国领先的 AI 公司之一。这些模型驱动 ChatGLM 聊天机器人，并在宽松许可下发布。由于先进半导体出口限制，建设国产芯片数据中心对中国 AI 产业至关重要，智谱的这一成就展示了在克服这些挑战方面的进展。
+**背景**: 反例是证伪猜想的特定实例，在完善定义和精确证明中起关键作用。自动定理证明一直是计算机科学的长期目标，但近年来 AI 和机器学习的进展显著加速了反例的发现。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/GLM_%28AI%29">GLM (AI)</a></li>
-<li><a href="https://aishare.jizhiku.net/archives/27993">国产芯片数据中心落地：智谱的这步棋，能改变什么？ - Ai技能智慧站</a></li>
-<li><a href="https://glm5.app/zh-CN">GLM 5 — 新一代前沿大模型 | AI 聊天、图像与视频生成</a></li>
+<li><a href="https://math.duke.edu/mathplus/2025/ai-powered-discovery-counterexamples-combinatorics">AI powered discovery of counterexamples in combinatorics</a></li>
+<li><a href="https://www.youtube.com/watch?v=vxeSjfwJQRE">97% of Counterexamples Are Now AI-Generated! - YouTube Images</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Automated_theorem_proving">Automated theorem proving</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#数据中心`, `#国产芯片`, `#智谱`, `#算力基础设施`
+**社区讨论**: 评论者普遍对此持积极态度，认为这节省了在错误猜想上浪费的时间，让数学家专注于富有成效的研究。有人将其与国际象棋计算机类比，起初擅长计算，后来激发创意走法。关于雅可比猜想的引用说明了未察觉错误可能带来的人性代价。
+
+**标签**: `#mathematics`, `#AI`, `#theorem proving`, `#counterexamples`, `#research methodology`
 
 ---
 
 <a id="item-3"></a>
-## [Jane Street 的 Incremental 库实现了高效重计算。](https://github.com/janestreet/incremental) ⭐️ 8.0/10
+## [代理群实现每秒千次提交，催生定制版本控制系统](https://cursor.com/blog/agent-swarm-model-economics) ⭐️ 8.0/10
 
-Jane Street 开源了 Incremental 库，这是一个用于 OCaml 的增量计算库，可在输入变化时高效重新计算结果。 增量计算是反应式框架、构建系统和数据处理中的关键技术；Jane Street 的这个库提供了健壮、经过生产验证的实现，可能影响更广泛的社区。 Incremental 利用有向无环图（DAG）来建模依赖关系和重计算，非常适合 OCaml 中的函数式编程模式。
+Cursor 的博客报告了代理群实验，实现了高达每秒 1000 次的提交率，这需要专门构建的版本控制系统（VCS）来管理吞吐量和协调。 这展示了 AI 代理的极端扩展潜力，同时揭示了必须在实际应用中克服的基础设施瓶颈（如 VCS），引发了社区关于此类基准测试有效性的辩论。 新系统峰值可达每秒 1000 次提交，相较之前浏览器群每小时 1000 次提交有千倍提升。自定义 VCS 从头构建，用于高速处理冲突检测和协调。
 
-hackernews · handfuloflight · 7月21日 03:50 · [社区讨论](https://news.ycombinator.com/item?id=48987822)
+hackernews · jlaneve · 7月20日 18:06 · [社区讨论](https://news.ycombinator.com/item?id=48982535)
 
-**背景**: 增量计算是一种软件技术，当输入数据发生变化时，只重新计算依赖于变化数据的输出，避免完全重新计算。这种方法常用于电子表格、构建系统和反应式编程。Incremental 库在 OCaml 中提供了基于依赖图跟踪计算更新的规范实现。
+**背景**: 代理群协调多个 AI 代理并行处理复杂任务。传统的版本控制系统（如 Git）并非为这种高提交率和自主协调需求而设计。Cursor 的实验挑战了代理群的能力极限。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/janestreet/incremental">GitHub - janestreet / incremental : A library for incremental ...</a></li>
-<li><a href="https://blog.janestreet.com/introducing-incremental/">Jane Street Blog - Introducing Incremental</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Incremental_computation">Incremental computation</a></li>
+<li><a href="https://www.swarms.ai/">Swarms AI — Multi- Agent Framework &amp; Agent Marketplace</a></li>
+<li><a href="https://www.freestyle.sh/blog/engineering/version-control-for-ai-agents">Version Control for AI Agents - Freestyle Blog</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者将 Incremental 与 JavaScript 信号、构建系统和差异数据流进行比较，指出它与 Clojure 和高盛历史实践的相似之处。讨论强调了它对于反应式编程的相关性，并提到了 MobX 和 Jotai 等替代实现。
+**社区讨论**: 像 anthonypasq 这样的评论者赞赏其前瞻性，而 notahan 则将这些结果斥为“刷榜”并质疑其实际适用性。handfuloflight 指出 SQLite 源代码可能已在训练数据中，这使测试的有效性受到质疑。
 
-**标签**: `#incremental-computation`, `#reactive-programming`, `#functional-programming`, `#jane-street`, `#build-systems`
+**标签**: `#agent swarms`, `#AI`, `#version control`, `#software engineering`, `#benchmarking`
 
 ---
 
 <a id="item-4"></a>
-## [人类数学家正被 AI 反例生成反超](https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/) ⭐️ 8.0/10
+## [Claude Code 团队炉边谈话揭晓内部指标](https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything) ⭐️ 8.0/10
 
-最近一篇博客文章指出，AI 系统在生成数学猜想反例方面已经超越人类数学家，可能重塑数学研究。这一趋势体现在新的 AI 方法能够在形式定理证明器中提出并验证反例。 这很重要，因为它可以通过快速反驳错误猜想加速数学发现，让数学家专注于有希望的方向。同时也对人类直觉的未来角色以及数学证明的本质提出了疑问。 这些 AI 系统可以通过非形式推理生成候选反例，然后在 Lean 4 中生成形式证明进行验证。然而，这些方法并非完美无缺，仍需人类监督。
-
-hackernews · artninja1988 · 7月20日 19:03 · [社区讨论](https://news.ycombinator.com/item?id=48983382)
-
-**背景**: 在数学中，反例是用于反驳猜想的例子。寻找反例是数学研究的关键部分，常常导致猜想的完善。自动定理证明一直是 AI 的一个领域，近期大语言模型的进展使得反例生成的新方法成为可能。例如，2026 年的一篇论文引入了&\#x27;Learning to Disprove&\#x27;，使用 LLM 生成反例并在 Lean 定理证明器中进行形式验证。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Automated_theorem_proving">Automated theorem proving</a></li>
-<li><a href="https://arxiv.org/abs/2603.19514">[2603.19514] Learning to Disprove: Formal Counterexample Generation with Large Language Models</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论普遍欢迎这一发展，指出 AI 反例生成可以节省数学家浪费多年的努力，如张益唐论文错误的轶事所示。一些用户强调反例在数学中的重要性，并推荐书籍《证明与反驳》。
-
-**标签**: `#AI`, `#mathematics`, `#theorem proving`, `#automated reasoning`, `#counterexamples`
-
----
-
-<a id="item-5"></a>
-## [AI 代理集群实现每秒 1000 次提交，采用自定义版本控制系统](https://cursor.com/blog/agent-swarm-model-economics) ⭐️ 8.0/10
-
-Cursor 开发了 AI 代理集群，能够使用自定义构建的版本控制系统 \(VCS\) 每秒产生数千次提交，大幅超过了之前在 Git 上每小时 1000 次提交的峰值。 这一突破挑战了关于规模化 AI 辅助编程的传统假设，展示了惊人的速度提升，同时引发了关于这种高频率提交模式相对于实际软件工程集成的实用价值的质疑。 新的 VCS 从头开始构建以处理吞吐量，并作为检测冲突的协调机制。早期结果表明，Opus 和 Composer 的组合能够以大约 1/19 的成本和一半的代码量实现与 Fable 系统相当的结果。
-
-hackernews · jlaneve · 7月20日 18:06 · [社区讨论](https://news.ycombinator.com/item?id=48982535)
-
-**背景**: AI 代理集群是协同工作的 AI 代理组，用于解决复杂任务。在软件工程中，它们可用于自主编写和修改代码。自定义版本控制系统 \(VCS\) 对于管理这种集群产生的极高变化率是必要的，因为传统的 Git 无法处理每秒数千次提交。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://relevanceai.com/learn/agent-swarms-orchestrating-the-future-of-ai-collaboration">What is an AI Agent Swarm - Relevance AI</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区反应不一。一些用户称赞这种实验性方法是对未来的瞥见，而另一些用户则批评其为 &\#x27;benchmaxxing&\#x27;，可能无法转化为实际集成挑战。显著的比较突显了成本效率差异，并且有人质疑训练数据是否已经包含了目标源代码。
-
-**标签**: `#agent swarms`, `#AI coding`, `#version control`, `#cost efficiency`, `#software engineering`
-
----
-
-<a id="item-6"></a>
-## [中国开放权重 AI 战略正赢得优势](https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/) ⭐️ 8.0/10
-
-一篇博文认为中国的开放权重 AI 战略正在超越美国的专有方案，引发了社区对其说法有效性的争论。 这一讨论意义重大，因为它可能反映了 AI 行业竞争格局的转变，开放性和成本效益可能挑战美国专有模型的主导地位。 文章引用了诸如 80%的初创公司使用中国模型等统计数据，但评论者质疑这一数字，并指出企业更看重零数据保留和现有供应商关系。
-
-hackernews · benwerd · 7月20日 14:21 · [社区讨论](https://news.ycombinator.com/item?id=48979269)
-
-**背景**: 开放权重 AI 模型是指其训练后的参数（权重）被公开发布，允许下载和使用，但可能不包含完整的训练代码或数据。这不同于开源 AI，后者通常提供对代码、数据和方法的完全访问。中国采用了开放权重的 AI 战略，发布了计算效率高的模型，直接与美国前沿模型竞争。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://opensource.org/ai/open-weights">Open Weights : not quite what you’ve been told – Open Source Initiative</a></li>
-<li><a href="https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model">What is an Open-Weight Model? - Stanford HAI</a></li>
-<li><a href="https://hai.stanford.edu/policy/beyond-deepseek-chinas-diverse-open-weight-ai-ecosystem-and-its-policy-implications">Beyond DeepSeek: China&#x27;s Diverse Open-Weight AI ...</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区反应不一：一些人支持自由/开放最终获胜的历史趋势，并引用以往的市场颠覆案例；而其他人则对所声称的初创公司采用率持怀疑态度，并指出企业更关心数据保留。还有对知识产权侵权的担忧，以及 Meta 的 Llama 并未给 Meta 带来商业成功的事实。
-
-**标签**: `#AI`, `#open-weights`, `#China`, `#AI strategy`, `#open-source`
-
----
-
-<a id="item-7"></a>
-## [为什么我停止‘创造内容’](https://refactoringenglish.com/blog/why-i-stopped-creating-content/) ⭐️ 8.0/10
-
-《重构英语》的作者解释了他为什么拒绝‘内容创造者’这一标签，而是专注于撰写有意义的文章，追求质量而非算法表现。 这篇文章挑战了数字媒体中无处不在的‘内容创造’心态，鼓励创作者超越指标和商品化，重视真正的技艺和人与人之间的连接。 ‘内容’一词将创意作品降格为可互换的商品，这一观点此前也被理查德·斯托曼所呼应。作者区分了为算法‘创造内容’和为观众‘创作作品’之间的区别。
-
-hackernews · mtlynch · 7月20日 15:47 · [社区讨论](https://news.ycombinator.com/item?id=48980520)
-
-**背景**: 近年来，在 YouTube、TikTok 和 Instagram 等平台上，‘内容创造者’一词变得无处不在，通常意味着关注参与度和变现。批评者认为，这个词通过将作品视为分发渠道的填充物，贬低了艺术和智力工作。
-
-**社区讨论**: 评论者反应不一：一些人同意‘内容’使创意工作变得浅薄，并引用斯托曼的类似批评；另一些人则辩护说这个词是一个中性的描述，消除了不同媒介之间的界限。有评论者指出，赛斯·高汀将分享想法视为一种特权，而非创作商品。
-
-**标签**: `#content creation`, `#writing`, `#digital media`, `#philosophy`, `#Hacker News discussion`
-
----
-
-<a id="item-8"></a>
-## [Jellyfin 创始人 Andrew 因倦怠离职](https://forum.jellyfin.org/t-project-leadership-changes) ⭐️ 8.0/10
-
-Jellyfin 创始人 Andrew 因严重倦怠退出项目，论坛公告显示过渡平稳，项目由其他维护者继续负责。 Andrew 的离职凸显了自由开源软件（FLOSS）的可持续性挑战，尤其是像 Jellyfin 这样与专有巨头 Plex 竞争的志愿者驱动项目。该事件也引发社区对维护者健康重要性以及分担工作量必要性的反思。 Andrew 在公告中提到他无法再提供所需精力，面临严重倦怠和心理健康风险。项目预计将继续由现有维护者负责，过渡过程如帖子所述是平稳的。
-
-hackernews · swat535 · 7月20日 23:15 · [社区讨论](https://news.ycombinator.com/item?id=48986091)
-
-**背景**: Jellyfin 是一个免费开源媒体服务器，允许用户自己托管和流式传输媒体库到任何设备。它于 2018 年作为 Emby 的分支诞生，已成为专有解决方案如 Plex 的热门替代品。该项目完全由志愿者运营，依赖社区贡献进行开发和维护。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://jellyfin.org/">The Free Software Media System | Jellyfin</a></li>
-<li><a href="https://jellyfin.org/docs/">Introduction | Jellyfin</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论显示对 Andrew 的强烈支持和对他工作的感谢。用户感谢团队提供了 Plex 的替代方案，尤其是在 Plex 将终身通行证价格提高到 750 美元之后。一些评论者表示他们已使用 Jellyfin 多年没有问题，而另一些人由于硬件兼容性仍依赖 Plex 但认可 Jellyfin 的进步。讨论还涉及 FLOSS 项目中的倦怠问题，用户提到了 Filebrowser 等其他近期案例。
-
-**标签**: `#Jellyfin`, `#open-source`, `#leadership change`, `#media server`, `#burnout`
-
----
-
-<a id="item-9"></a>
-## [Claude Code 团队透露内部 AI 工具采用指标](https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything) ⭐️ 8.0/10
-
-在一场炉边谈话中，Anthropic 的 Claude Code 团队透露，其基于 Slack 的工具 Claude Tag 现已推动他们产品工程中 65%的 Pull Request。他们还披露，新功能会先向员工发布，只有表现出积极用户留存率的功能才会被保留。 这些指标表明，在构建这些工具的团队内部，AI 编码工具已获得高度信任和深度集成，为其有效性提供了强有力的验证。诸如员工内测（dogfooding）和自动化代码审查等开发实践，为更广泛的软件工程社区集成 AI 助手提供了宝贵经验。 Claude Code 团队越来越多地对产品外层使用自动化代码审查，但关键变更仍由人工审核。此外，团队指出，对于较新模型而言，在系统提示中添加示例已不再是最佳实践，他们的系统提示规模已缩小了 80%。
+在 AI 工程师世界博览会的炉边谈话中，Anthropic Claude Code 团队的 Cat Wu 和 Thariq Shihipar 透露，Claude Tag 目前处理了他们 65%的产品工程拉取请求，并且由于 Fable 5 等新模型，Claude Code 的系统提示词大小减少了 80%。 这表明 Anthropic 自身对 AI 编码代理的高度信任和采用，并反映了模型成熟后最佳实践的转变（减少提示词示例和禁止性指令），对使用 Claude Code 及其他 AI 编码工具的开发者具有重要影响。 Claude Tag 是一种依赖自动模式的 Slack 协作集成；Anthropic 内部将“吃狗粮”称为“吃蚂蚁”；Fable 被用于编辑其自己的发布视频；Thariq 建议开发者更雄心勃勃以抵消编码代理带来的效率提升。
 
 rss · Simon Willison · 7月21日 12:54
 
-**背景**: Claude Code 是 Anthropic 推出的一款 AI 编码助手，而 Claude Tag 是一个 Slack 集成，允许团队在频道中与 AI 协作。Anthropic 近期还发布了 Fable，这是一个功能强大的模型，能够处理多天自主会话的复杂编码项目。该团队在公开发布前会广泛使用自身工具进行内测，他们称之为&\#x27;ant fooding&\#x27;。
+**背景**: Claude Code 是 Anthropic 推出的 AI 编码代理，帮助开发者编写代码。Claude Tag 是一种协作集成，允许团队在 Slack 频道中与 Claude 协作。Fable 5 是 Anthropic 于 2026 年 6 月发布的最强大模型，适用于复杂编码任务。这次炉边谈话提供了 Claude Code 团队自身使用产品的内部视角。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Claude_%28AI%29">Claude (AI)</a></li>
-<li><a href="https://claude.com/docs/claude-tag/overview">Work with Claude Tag - Claude .ai Documentation</a></li>
+<li><a href="https://www.anthropic.com/news/introducing-claude-tag">Introducing Claude Tag \ Anthropic</a></li>
 <li><a href="https://www.anthropic.com/claude/fable">Claude Fable \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI coding tools`, `#Claude Code`, `#Anthropic`, `#software engineering`, `#developer productivity`
+**标签**: `#Claude Code`, `#AI coding agents`, `#Anthropic`, `#developer tools`, `#productivity`
 
 ---
 
-<a id="item-10"></a>
-## [逆向工程现在很便宜](https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything) ⭐️ 8.0/10
+<a id="item-5"></a>
+## [本·汤普森提议美国立法促进开放模型对抗中国 AI](https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything) ⭐️ 8.0/10
 
-AI 编码代理大幅降低了逆向工程家用设备的成本和心理负担，使得爱好者可以自动化以前不值得投入精力的设备。 这降低了爱好者尝试逆向工程的门槛，改变了成本效益分析，鼓励了家庭自动化和设备互操作性方面的更多创新。 逆向工程家用设备通常涉及处理未文档化且不稳定的 API，这些 API 可能会发生变化，需要持续维护。编码代理减少了初始努力和维护的心理负担，因为如果代码出错，可以廉价地重写。
-
-rss · Simon Willison · 7月20日 19:24
-
-**背景**: AI 编码代理是使用大型语言模型根据自然语言提示自动生成或修改代码的工具，例如 Cursor 和 Zencoder。它们变得越来越强大，允许开发者以最少的手动工作快速原型化自动化和逆向工程协议。这降低了实验成本，使以前边缘的项目变得可行。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://grokipedia.com/page/Hybrid_Mac_mini_and_RTX_4090_setup_for_local_AI_coding_agents">Hybrid Mac mini and RTX 4090 setup for local AI coding agents</a></li>
-<li><a href="https://zencoder.ai/">Zencoder | The AI Coding Agent</a></li>
-<li><a href="https://cursor.com/">Cursor: AI coding agent</a></li>
-
-</ul>
-</details>
-
-**标签**: `#reverse-engineering`, `#AI coding agents`, `#software engineering`, `#automation`, `#cost of code`
-
----
-
-<a id="item-11"></a>
-## [Ben Thompson 提议制定合理使用法促进美国 AI 模型发展](https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything) ⭐️ 8.0/10
-
-Ben Thompson 提议美国通过一项法律，明确将收集数据用于 AI 训练视为合理使用，并禁止禁止蒸馏的服务条款。同时，阿里巴巴在习近平讲话鼓励开放后，发布了 Qwen 3.8 Max，一个 2.4 万亿参数的开源权重模型。 该提案可能通过明确版权法，使美国开源模型能够利用对专有模型的蒸馏，从而重塑中美 AI 竞争格局。它还凸显了在未经授权数据上训练模型同时禁止他人蒸馏自家模型之间的矛盾。 该法律将明确将训练数据收集视为合理使用，并禁止禁止蒸馏的服务条款。Qwen 3.8 Max 拥有 2.4 万亿参数，几乎与 Kimi K3 的 2.8 万亿参数一样大，其推理轨迹中包含了类似人类的思考，比如‘可以加头盔吗？不。’
+本·汤普森提议美国通过法律，将训练数据收集视为合理使用，并禁止服务条款中禁止蒸馏，以帮助美国开放模型与 Qwen 3.8 Max 等中国模型竞争。 该提议直接针对 AI 实验室在未授权数据上训练却禁止蒸馏的矛盾行为，可能改变美国版权政策以支持开放性，加速 AI 创新。 该提议包含两大支柱：训练数据的明确合理使用和禁止反蒸馏服务条款。本·汤普森还指出，阿里巴巴以开放权重发布 Qwen 3.8 Max 可能受到习近平呼吁开源协作的讲话影响。
 
 rss · Simon Willison · 7月20日 17:09
 
-**背景**: 模型蒸馏是一种技术，通过查询 API，较小的‘学生’模型学习模仿较大的‘教师’模型。AI 训练数据的合理使用是一个法律概念，即使用受版权保护的作品进行训练可能是允许的。开放权重模型公开发布最终训练好的权重，任何人都可以下载使用。Ben Thompson 的提议旨在澄清这些法律模糊之处，帮助美国开源模型与中国同行竞争。
+**背景**: AI 蒸馏是一种通过 API 查询让小型模型从大型模型输出中学习的技术。使用受版权保护数据训练模型的法律地位尚不明确，部分法院认定其为合理使用。开放权重模型允许用户运行模型，但不一定允许修改或重新分发，不同于真正的开源。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://avahi.ai/glossary/model-distillation/">What is Model Distillation in AI ?</a></li>
-<li><a href="https://www.forbes.com/sites/roomykhan/2024/10/04/ai-training-data-dilemma-legal-experts-argue-for-fair-use/">AI Training Data Dilemma: Legal Experts Argue For &#x27;Fair Use&#x27;</a></li>
-<li><a href="https://www.analyticsvidhya.com/blog/2025/04/open-weight-models/">What are Open Source and Open Weight Models ? | Analytics Vidhya</a></li>
+<li><a href="https://intellibytes.substack.com/p/ai-distillation-explained-what-it">AI Distillation Explained: What It Is, How It Works, Legality Concerns</a></li>
+<li><a href="https://neysa.ai/blog/open-weights-open-source/">Open Weights vs Open Source: What’s the Real Difference?</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI policy`, `#open models`, `#distillation`, `#fair use`, `#Chinese AI`
+**标签**: `#AI policy`, `#distillation`, `#copyright`, `#Chinese AI models`, `#open models`
 
 ---
 
-<a id="item-12"></a>
-## [X 安卓客户端从零重建，提升速度和稳定性](https://x.com/i/status/2079273272274026718) ⭐️ 8.0/10
+<a id="item-6"></a>
+## [智谱建成全国产芯片大型数据中心](https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai) ⭐️ 8.0/10
 
-X 产品负责人 Nikita Bier 宣布，安卓客户端已从零全面重建，该项目耗时超过一年。新版本在速度、流畅度和稳定性上显著提升，为快速迭代新功能奠定基础。 此次重建表明 X 致力于改善长期落后于 iOS 的安卓体验，将推动 Cashtags、自定义时间线等新功能更快上线，并可能吸引更多用户。 重建工作改善了老旧设备性能，目前仍缺少 Spaces 主持等功能，但 Cashtags 和自定义时间线已上线。视频回应、视频编辑器等功能即将推出。
+中国 AI 实验室智谱完成了全部采用国产芯片的 1 吉瓦数据中心建设，并已开始部分运营，用于支持其 GLM 平台开发。 这一里程碑展示了国产芯片在大型 AI 训练中的规模化应用能力，减少对外国硬件的依赖，推动了中国 AI 自主可控的目标。 该设施是中国 AI 实验室建造的最大规模设施之一，其功率足以为约 75 万户家庭供电，且已建成多个各拥有超万枚芯片的计算集群。
 
-telegram · zaihuapd · 7月21日 02:27
+telegram · zaihuapd · 7月20日 15:43
 
-**背景**: Cashtags 是一种将股票和加密货币的实时价格图表嵌入帖文的功能。自定义时间线允许用户根据话题、关键词或列表创建个性化信息流。Spaces 是 X 的实时语音聊天功能。
+**背景**: 智谱是中国领先的人工智能企业，以其 GLM 系列大语言模型闻名。该数据中心完全采用国产芯片，反映了中国在先进外国芯片（如英伟达）出口限制下，推动半导体生态系统自主可控的努力。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://finance.yahoo.com/markets/stocks/articles/elon-musks-x-launches-cashtags-150207451.html">Elon Musk&#x27;s X Launches Cashtags Feature As It Aims To Bring &#x27;Real-Time Financial Data&#x27; To Platform: Here&#x27;s How It Will Work</a></li>
-<li><a href="https://www.ibtimes.co.uk/x-custom-timelines-personalised-user-experience-1793037">X &#x27; Custom Timelines &#x27; Explained: Here&#x27;s How to Build... | IBTimes ...</a></li>
-<li><a href="https://help.x.com/en/using-x/spaces">Spaces is a place to come together, built around the voices of the...</a></li>
+<li><a href="https://open.bigmodel.cn/">bigmodel - 智谱AI开放平台</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Android`, `#X \(Twitter\)`, `#app rewrite`, `#engineering`, `#performance`
+**标签**: `#国产芯片`, `#数据中心`, `#AI`, `#智谱`, `#中国科技`
 
 ---
 
-<a id="item-13"></a>
-## [Cloudflare 内部 DNS 服务正式上线](https://blog.cloudflare.com/internal-dns/) ⭐️ 8.0/10
+<a id="item-7"></a>
+## [谷歌被曝开发&\#x27;Frozen v2&\#x27;芯片，将 Gemini 写入硬件](https://www.quiverquant.com/news/Google+Reportedly+Developing+%E2%80%98Frozen+v2%E2%80%99+AI+Chip+to+Boost+Gemini+Efficiency) ⭐️ 8.0/10
 
-2026 年 7 月 20 日，Cloudflare 宣布其内部 DNS 服务正式全面上线，该服务为私有网络提供权威与递归 DNS 解析，并与公共 DNS 及 Zero Trust 集成。 这通过统一公共和私有 DNS 至单一平台简化了企业分割 DNS 管理，减少了配置漂移，并将 Zero Trust 策略扩展至域名解析层。 已使用 Cloudflare Gateway 的客户可以免费启用内部 DNS；管理员可以定义解析器策略，并通过 DNS 视图控制不同用户和设备能够看到的内部记录。
+据报道，谷歌正在开发一款代号为&\#x27;Frozen v2&\#x27;的服务器芯片，将 Gemini AI 模型的部分能力直接融入硬件，推理效率可达最新 TPU 的 6 到 10 倍，计划于 2028 年部署。 这种方法显著降低了计算开销和功耗，可能缓解谷歌内部的算力短缺，并实现更高效的 AI 服务。它代表了向模型特定硬件的转变，可能影响整个 AI 芯片行业。 该芯片旨在补充而非取代谷歌的 TPU 产品线，专注于 Gemini 模型的推理。它通过将神经网络架构直接嵌入电路来减少数据移动，这种技术被称为&\#x27;冻结&\#x27;。
 
-telegram · zaihuapd · 7月21日 03:49
+telegram · zaihuapd · 7月21日 01:01
 
-**背景**: 分割 DNS 允许组织根据查询来源提供不同的 DNS 响应，通常用于区分内部和外部名称。Cloudflare 的内部 DNS 将此能力与其 Zero Trust 网络集成，实现了统一控制平面，无需独立的 DNS 基础设施。
+**背景**: 当前的 AI 芯片如 GPU 和 TPU 是通用加速器，将模型存储在内存中并来回传输数据，消耗电力和时间。谷歌的 TPU 是其自研的机器学习专用 ASIC。Frozen v2 概念进一步专业化，将特定模型架构锁定在硅片中，虽然限制了灵活性，但针对该模型实现了效率最大化。这类似于比特币挖矿 ASIC 在特定任务上优于通用硬件。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Split-horizon_DNS">Split-horizon DNS</a></li>
-<li><a href="https://developers.cloudflare.com/dns/internal-dns/dns-views/">Manage DNS views · Cloudflare DNS docs</a></li>
+<li><a href="https://qz.com/google-gemini-chip-frozen-tpu-efficiency-072026">Google developing Gemini-specific chip called Frozen v 2</a></li>
+<li><a href="https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/">Google is working on a new AI chip designed to make Gemini ...</a></li>
+<li><a href="https://thenextweb.com/news/google-frozen-chip-gemini-silicon">Google Frozen chip : Gemini baked into the silicon</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Cloudflare`, `#DNS`, `#Zero Trust`, `#Networking`, `#Enterprise`
+**标签**: `#AI芯片`, `#Google`, `#Gemini`, `#硬件优化`, `#推理效率`
 
 ---
 
-<a id="item-14"></a>
-## [Jellyfin 三位联合创始人集体辞职](https://cybernews.com/tech/jellyfin-founders-step-down-future-uncertain/) ⭐️ 8.0/10
+<a id="item-8"></a>
+## [阿里将推千问办公，整合三款智能体](https://finance.sina.com.cn/roll/2026-07-21/doc-iniiqefa9222987.shtml) ⭐️ 8.0/10
 
-Jellyfin 的三位联合创始人在一周内全部离职，原因包括严重倦怠、心理健康风险以及开发方向分歧。目前项目尚未公布继任计划，未来充满不确定性。 这一领导层真空可能使广泛使用的开源媒体服务器 Jellyfin 陷入不稳定，影响其社区和开发进程，同时凸显了志愿者驱动的开源项目中普遍存在的倦怠问题。 尽管离职，前联合创始人 Joshua Boniface 表示交接过程友好，不太可能出现恶意分叉。团队曾在 5 月抱怨 AI 代码提交加剧了开发倦怠。
+阿里巴巴即将推出“千问办公”，该产品整合了 QoderWork、悟空和 MuleRun 三款智能体，形成统一的办公平台。该项目由钉钉新任 CEO 陈宇森负责，定位为阿里在智能体办公市场的旗舰产品。 此次整合表明阿里巴巴在智能体办公市场的战略性布局，将竞争从传统协作工具转向 AI 驱动生态。随着腾讯、字节跳动等对手也在整合智能体产品，此举可能重塑企业生产力领域的竞争格局。 千问办公将以 QoderWork 为基础，QoderWork 是一款能够自主规划和执行任务的桌面 AI 智能体。该产品瞄准“Agent 办公”市场，旨在为企业工作流程提供全面的 AI 助手。
 
-telegram · zaihuapd · 7月21日 11:06
+telegram · zaihuapd · 7月21日 10:11
 
-**背景**: Jellyfin 是一款自由开源媒体服务器，于 2018 年从 Emby 分支而来，起因是 Emby 转为闭源。它允许用户组织、管理个人媒体并向各种设备流式传输。开源项目通常依赖志愿者维护者，当需求超出能力时容易导致倦怠。
+**背景**: AI 智能体是一种自主软件程序，能够理解目标并执行多步任务，无需人工持续干预。阿里巴巴、腾讯、字节跳动等公司正竞相将此类智能体整合到办公套件中，从钉钉、飞书等传统协作工具转向 AI 生态。“Agent 办公”趋势代表了从人工驱动工作流到 AI 编排生产力的转变。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Jellyfin">Jellyfin</a></li>
-<li><a href="https://jellyfin.org/">The Free Software Media System | Jellyfin</a></li>
+<li><a href="https://qoder.com/qoderwork">QoderWork - AI Desktop Assistant | Intelligent Task Automation Tool | Qoder</a></li>
+<li><a href="https://blog.csdn.net/2301_76268839/article/details/146032147">智能办公文具：AI Agent的工作效率追踪_ai agent办公-CSDN博客</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Jellyfin`, `#open source`, `#media server`, `#co-founder departure`, `#community impact`
+**标签**: `#阿里`, `#千问办公`, `#智能体`, `#钉钉`, `#Agent办公`
+
+---
+
+<a id="item-9"></a>
+## [谷歌发布 Gemini 3.6 Flash 并透露 Gemini 4 预训练](https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/) ⭐️ 8.0/10
+
+谷歌发布了 Gemini 3.6 Flash，该模型减少了 17%的输出 Token，并改进了推理步骤和工具调用。谷歌还透露了 Gemini 4 的预训练，并推出了包括 Gemini 3.5 Flash-Lite 和 3.5 Flash Cyber 在内的新模型。 此次发布展示了谷歌在 AI 领域的持续投入，提供了更高效、更专业化的模型。Gemini 4 的预训练标志着其旗舰模型的下一代发展，可能进一步提升 AI 助手和企业工具的能力。 Gemini 3.6 Flash 的知识截止日期为 2026 年 3 月，API 定价为每百万输入 Token 1.5 美元、输出 Token 7.5 美元。此外，Gemini 3.5 Pro 正在与合作伙伴测试，DeepMind 已开始对 Gemini 4 进行大规模预训练。
+
+telegram · zaihuapd · 7月21日 15:23
+
+**背景**: Token 是 AI 模型处理的文本单元，通常是单词的一部分或标点符号。推理步骤指模型将复杂问题分解为中间步骤的过程，通常使用思维链提示来提高准确性和透明度。知识截止日期表示模型训练数据最后一次更新的时间，影响其对近期事件的了解。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://blogs.nvidia.com/blog/ai-tokens-explained/">What Are AI Tokens ? The Language and Currency... | NVIDIA Blog</a></li>
+<li><a href="https://www.ibm.com/think/topics/chain-of-thoughts">What is chain of thought (CoT) prompting? | IBM</a></li>
+<li><a href="https://www.linkedin.com/posts/arista-witty_knowledge-cut-off-in-ai-what-it-means-activity-7439630888201687040-3fkf">AI Knowledge Cutoff Dates and RAG Technology | Arista... | LinkedIn</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI`, `#Google`, `#Gemini`, `#model release`, `#DeepMind`
 
 ---
