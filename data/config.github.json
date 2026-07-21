@@ -110,6 +110,17 @@
     "ai_score_threshold": 8.0,
     "time_window_hours": 24
   },
+  "email": {
+    "enabled": true,
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 465,
+    "imap_enabled": false,
+    "imap_server": "",
+    "imap_port": 993,
+    "email_address": "fjw7478@qq.com",
+    "password_env": "EMAIL_PASSWORD",
+    "sender_name": "Horizon Daily"
+  },
   "webhook": {
     "enabled": true,
     "url_env": "HORIZON_WEBHOOK_URL",
