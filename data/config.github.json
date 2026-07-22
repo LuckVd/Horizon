@@ -118,7 +118,7 @@
     "imap_port": 993,
     "email_address": "fjw7478@qq.com",
     "password_env": "EMAIL_PASSWORD",
-    "sender_name": "Horizon Daily"
+    "sender_name": "Horizon 新闻日报"
   },
   "webhook": {
     "enabled": true,
